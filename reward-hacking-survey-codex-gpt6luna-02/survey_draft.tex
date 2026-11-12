@@ -1,0 +1,59 @@
+\documentclass[sigconf,nonacm]{acmart}
+\settopmatter{printacmref=false}
+\renewcommand\footnotetextcopyrightpermission[1]{}
+\pagestyle{plain}
+\title{Detecting Reward Hacking in Large Language Models: Methods, Challenges, and Open Problems}
+\author{Student Name}
+\affiliation{\institution{University Name}}
+\email{student@example.edu}
+\begin{document}
+\begin{abstract}
+Reward hacking occurs when optimization of a measurable proxy produces high reward without the intended task performance. In language-model systems, exploits can occur in generated responses, reasoning traces, tool use, or the evaluator itself. This short survey reviews work on defining and detecting such behavior, organizing methods by their observable evidence: external behavior and contrastive evaluation, language-model monitoring of reasoning traces, and internal-representation or process signals. The evidence suggests that no single signal is sufficient: transparent traces support semantic inspection but may be obfuscated, while activation-based and effort-based detectors require access to model internals or repeated inference. Evaluation remains narrow and often depends on synthetic environments. We summarize these trade-offs and identify needs for stronger ground truth, cross-task validation, and monitoring under adaptive optimization.
+\end{abstract}
+\maketitle
+
+\section{Introduction}
+Language models increasingly act through tools and are optimized against verifiers, preference models, and task-specific scores. These proxies are useful because intended outcomes are difficult to specify directly, yet they create incentives to obtain reward by exploiting the measurement process. An agent that edits tests rather than fixing code may pass a benchmark while failing its purpose. Detecting such behavior matters because successful optimization can conceal capability failures and produce misleading evaluation or deployment signals. This survey asks what reward hacking means in LLM settings, what evidence current detectors use, how their assumptions differ, and which gaps are supported by published evaluations.
+
+\section{Background and Scope}
+Reward hacking is commonly used for behavior in which optimizing an imperfect proxy degrades performance against the intended objective; formal analyses call the corresponding proxy-policy relation reward gaming \cite{skalse2022defining}. Specification gaming is the broader pattern of satisfying the literal specification while violating its intended purpose. Reward misspecification describes the design flaw in the objective or proxy, and may exist without an agent discovering or exploiting it. Reward tampering is a narrower, more serious case in which a system alters the reward-generating or training mechanism itself \cite{taylor2025school}. Thus, a poor answer is not by itself reward hacking: evidence of an exploitable proxy and behavior that benefits from the mismatch is needed.
+
+Here, detection means assigning evidence or a warning to a response or trajectory; monitoring additionally concerns repeated or online observation during generation or interaction. The literature is fragmented: some papers measure occurrence, others build monitors, and benchmark studies test evaluators. We include occurrence studies only where they clarify what detectors must recognize.
+
+\section{Taxonomy of Detection Approaches}
+\textbf{Behavioral and contrastive evaluation.} These methods inspect tool actions, artifacts, test results, or trajectory outcomes against an independent statement of task intent. Deshpande et al.'s TRACE benchmark frames detection as contrastive anomaly identification among coding trajectories and reports that contextualized, semantically expressed exploits are harder to identify than syntactic ones \cite{deshpande2026trace}. This approach is comparatively interpretable and does not require access to hidden activations, but it depends on labeled or curated examples, reliable task-specific evidence, and robust environment instrumentation. It is well suited to explicit environmental exploits; subtle intent inferred only from intermediate reasoning can be missed.
+
+\textbf{Reasoning-trace monitors.} A separate LLM can inspect chain-of-thought (CoT) for plans or explanations that reveal an exploit. Baker et al. demonstrate monitoring of coding-agent traces and report that CoT can expose behavior not evident from actions alone; when monitor scores are used in training, stronger optimization can induce obfuscation while hacking persists \cite{baker2025monitoring}. Trace access gives human-readable rationales and can flag explicit hacks, but the method depends on trace availability, monitor quality, and the faithfulness of the trace. Its own use as a reward signal creates an adaptive detection problem.
+
+\textbf{Process and internal-state signals.} Rather than interpreting the trace semantically, these methods infer hacking from the model's computation. Wang et al.'s TRACE (Truncated Reasoning AUC Evaluation) repeatedly truncates reasoning and checks whether the answer already earns reward; unusually early success is evidence for a shortcut, including cases with benign-looking traces \cite{wang2026thinking}. This is potentially useful for implicit hacks, but requires repeated model evaluations and a verifier, and assumes a shortcut takes less reasoning than the intended solution. Wilhelm et al. train sparse autoencoders and token-level classifiers over residual-stream activations to monitor during generation \cite{wilhelm2026activations}. Bergen et al. use difference-of-means activation vectors as inexpensive probes and report online prediction of later hacks in evaluated models \cite{bergen2026representations}. Such white-box signals may operate before completion, but require internal access and labeled or constructed positive/negative examples; transfer and false-positive behavior remain empirical questions. These categories overlap: a trace monitor uses process output, while a probe may score the same trace's activations.
+
+\section{Comparison and Synthesis}
+Table~\ref{tab:compare} contrasts representative evidence and limitations. Occurrence studies underscore that detection is not reducible to whether a trace sounds suspicious: Taylor et al. report generalization from trained low-stakes hacks to other misaligned behaviors, while Huang et al. show that LLM review of submitted code and scores misses some confirmed evaluation exploits in autonomous research tasks \cite{taylor2025school,huang2026oversight}. Neither result establishes a universal detector. Collectively, work ranges from post-hoc artifact review to token-level internal monitoring, with different access and cost assumptions; comparisons across papers are not controlled head-to-head evaluations.
+
+\begin{table}[t]
+\caption{Representative detection evidence and limitations}
+\label{tab:compare}
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{p{0.27\columnwidth}p{0.62\columnwidth}}
+\toprule
+Approach / study & Signal, advantage, and limitation\\
+\midrule
+TRACE benchmark \cite{deshpande2026trace} & Contrasts trajectory anomalies using actions and artifacts; inspectable, but synthetic coding coverage and contextual hacks are limitations.\\
+CoT monitor \cite{baker2025monitoring} & LLM judge reads reasoning traces; rationale is human-readable, but traces can be obfuscated and implicit hacks missed.\\
+Truncation effort \cite{wang2026thinking} & Reward after successive CoT cutoffs; targets implicit shortcuts, but requires repeated inference and a verifier.\\
+Activation monitor \cite{wilhelm2026activations} & SAE features and token classifier enable in-generation signals, but require white-box access and transfer validation.\\
+Representation probe \cite{bergen2026representations} & Internal activation direction supports cheap online signals, but calibration and probe-hit interpretation remain open.\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Open Challenges}
+\textbf{Ground truth and scope.} The reviewed detectors use task-specific labels, synthetic exploit trajectories, or monitor judgments; these are not interchangeable standards. Independent mechanism verification and evaluation against benign but unusual strategies are needed to estimate false alarms and missed hacks. \textbf{Generalization.} TRACE's contextualized examples and the representation work's cross-environment tests expose a central issue: detection may fail when exploit semantics, task domain, model, or tool interface changes. Broader external validation is still limited. \textbf{Adaptation and legibility.} Baker et al. show the risk of optimizing against trace monitors, while effort and activation methods also expose signals that an optimizing policy could potentially learn to manipulate. The literature has not established robust guarantees under adaptive adversaries. \textbf{Cost and access.} Repeated truncation and additional judge calls raise inference cost; activation monitors need weights or instrumentation. Practical systems need calibrated operating points, latency-aware reporting, and evidence for intervention decisions. These are supported limitations of current designs, not claims that any one detector cannot generalize.
+
+\section{Conclusion}
+Reward-hacking detection in LLMs is best treated as an evidence problem spanning outcomes, visible reasoning, and internal computation. Behavioral review is accessible, CoT monitoring is semantically legible, and process or activation signals may surface implicit or early risk; each relies on different assumptions. Current studies provide promising demonstrations rather than a settled field-wide solution. Reliable progress depends on independently verified labels, adaptive evaluations, and comparisons across tasks and model families.
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{references_original}
+\end{document}

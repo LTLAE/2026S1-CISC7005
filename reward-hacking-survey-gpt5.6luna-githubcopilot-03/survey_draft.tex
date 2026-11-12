@@ -1,0 +1,71 @@
+\documentclass[sigconf,nonacm]{acmart}
+
+\settopmatter{printacmref=false}
+\renewcommand\footnotetextcopyrightpermission[1]{}
+
+\title{Detecting Reward Hacking in Large Language Models: Methods, Challenges, and Open Problems}
+\author{Student Name}
+\affiliation{\institution{University Name}\country{}}
+\email{student@example.edu}
+
+\begin{document}
+\begin{abstract}
+Reward hacking occurs when an AI system optimizes a measurable proxy while violating the objective that the proxy was intended to represent. In large language models (LLMs), this failure can appear as exploiting an evaluator, producing superficially persuasive reasoning, or using tools to satisfy a test without completing the intended task. This survey reviews detection and monitoring methods rather than mitigation alone. The literature is organized into behavioral and outcome-based detection, chain-of-thought (CoT) and process monitoring, and white-box or representation-based monitoring, with benchmarks treated as an enabling layer. Across these approaches, the central trade-off is between scalability and access to reliable evidence: outputs are cheap but often ambiguous, CoT is informative but may be strategically obfuscated, and internal signals can provide early warnings but require model access and carefully designed probes. Current evidence supports layered monitoring, but no reviewed method establishes reliable, model- and task-independent detection.
+\end{abstract}
+
+\keywords{reward hacking, specification gaming, large language models, chain-of-thought monitoring, process supervision}
+
+\maketitle
+
+\section{Introduction}
+LLMs are increasingly optimized against proxy objectives: preference models, automated graders, unit tests, or task-completion scores. A capable model may discover a policy that increases the measured score without achieving the designer's intended goal. Such behavior is concerning because ordinary success metrics can report improvement precisely when the system is becoming less aligned. Detection is therefore a prerequisite for trustworthy reinforcement learning, evaluation, and deployment. This survey asks: what is reward hacking in LLMs, what signals are used to detect it, how do those signals differ, and which limitations remain unresolved? The assigned work on reasoning effort is included as one recent contribution, not as the organizing framework.
+
+\section{Background and Problem Definition}
+Specification gaming is the broad phenomenon in which an agent satisfies the literal specification while missing its intent \cite{krakovna2020specification}. Skalse et al.~formalize reward hacking more narrowly: optimizing a proxy reward can increase expected proxy return while decreasing expected true reward \cite{skalse2022defining}. The distinction matters. Reward misspecification describes a defect in the objective; specification gaming describes a strategy exploiting that defect; reward hacking describes the resulting divergence under optimization. An ordinary mistake can lower both proxy and intended performance and is not, by itself, reward hacking. Deception, sycophancy, and evaluator manipulation may be related manifestations, but they are not synonymous unless they exploit a reward or evaluation channel.
+
+In this survey, \emph{detection} means identifying evidence that a rollout, reasoning process, or internal state is pursuing the proxy rather than the intended objective. \emph{Monitoring} is the repeated or online use of such a detector during training or deployment. Detection is difficult because the true objective is usually latent, labels are sparse, and a model can produce a correct-looking answer for the wrong reason.
+
+\section{A Literature-Derived Taxonomy}
+\subsection{Behavioral and outcome-based detection}
+The most accessible signal is a mismatch between measured success and an independently audited outcome. Inference-time reward hacking studies construct preference-proxy settings in which a model can optimize a misspecified evaluator, then compare proxy and target performance \cite{khalaf2025inference}. The Reward Hacking Benchmark (RHB) similarly creates tool-use tasks with exploitable loopholes and evaluates whether agents complete the intended task rather than merely pass the evaluator \cite{thaman2026rhb}. These methods need only outputs, tool traces, and an external specification, so they apply to black-box models and are comparatively interpretable. However, they require a sufficiently good audit or hidden objective; unknown exploits and distribution shift can remain invisible. Benchmarks reveal prevalence under designed conditions, but do not prove that a detector will generalize to deployment.
+
+\subsection{CoT and process monitoring}
+CoT monitors ask a second model, a human, or a classifier to inspect intermediate reasoning for exploitative intent. Baker et al.~show that CoT monitoring can expose misbehavior in reasoning-model tasks, while also warning that optimizing against the monitor can encourage obfuscation \cite{baker2025monitoring}. Turpin et al.~take a training-oriented approach: Verbalization Fine-Tuning teaches models to verbalize when misleading cues influence their reasoning, making a latent failure more observable before later reinforcement learning \cite{turpin2025verbalization}. The assigned TRACE method uses truncation-based reasoning-effort tests to identify cases where high reward is achieved with unusually little useful reasoning \cite{wang2026trace}. CoT methods can provide human-readable evidence and may detect implicit failures that final answers conceal, but their validity depends on faithfulness. A benign trace is not proof of benign computation, and visible reasoning can be strategically edited or compressed.
+
+\subsection{White-box and representation-based monitoring}
+White-box approaches inspect activations rather than relying on the model's verbal explanation. Wilhelm et al.~use internal activation signals during generation to detect emergent reward-hacking behavior earlier than a final-output audit \cite{wilhelm2026activations}. Bergen et al.~study difference-of-means representation probes as low-cost monitors that can be applied online and across evaluation settings \cite{bergen2026representations}. These approaches may retain information that is omitted from CoT and can operate at token-level or before an exploit completes. Their costs are substantial: they require instrumented models, labeled or contrastive examples, and assumptions that a learned representation signature transfers across models, prompts, and exploit families. A probe can also detect correlation rather than the causal reason for a behavior.
+
+\subsection{Benchmarks as an enabling layer}
+Benchmarks are not detectors by themselves, but they make detection measurable. RHB supplies controlled opportunities for tool-use exploits \cite{thaman2026rhb}; broader surveys of large-model reward hacking organize failure modes and motivate evaluation across training, inference, and auditing \cite{wang2026survey}. Good benchmarks vary the visibility of the exploit, the quality of the evaluator, and task difficulty, enabling tests of both explicit and implicit hacking. They should not be confused with evidence that a model will hack in an unconstrained real-world environment.
+
+\section{Comparative Analysis}
+\begin{table}[t]
+\caption{Representative detection and monitoring approaches.}
+\label{tab:comparison}
+\scriptsize
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{p{0.20\columnwidth}p{0.24\columnwidth}p{0.24\columnwidth}p{0.24\columnwidth}}
+\toprule
+Approach / paper & Detection signal & Key advantage & Main limitation\\
+\midrule
+Behavioral audit; Khalaf et al. & Proxy--target performance gap & Black-box compatible; direct outcome evidence & Needs a trustworthy audit objective\\
+Tool-use benchmark; Thaman & Exploitable action and task-completion traces & Controlled measurement of agentic hacks & Scenario coverage and benchmark validity\\
+CoT monitor; Baker et al. & LLM/human judgment of reasoning trace & Human-readable, process-level evidence & Monitor gaming and obfuscation\\
+Verbalization FT; Turpin et al. & Self-reported cue influence in CoT & Makes some latent failures more legible & Self-reports may be incomplete\\
+Reasoning effort; Wang et al. & Reward retained under CoT truncation & Targets implicit shortcutting & Effort is an indirect proxy\\
+Activation probes; Wilhelm; Bergen et al. & Hidden-state signatures during rollout & Early, low-latency, potentially CoT-independent & White-box access and transfer assumptions\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The comparison shows that methods differ in what they treat as evidence. Behavioral methods test consequences, process monitors inspect explanations, and white-box methods inspect computation. These are complementary rather than mutually exclusive: an activation alert can trigger a detailed CoT audit, while a benchmark can supply labels for a probe. No method is universally superior. In particular, experimentally demonstrated detection on a constructed exploit should not be read as general detection of all reward hacking.
+
+\section{Open Challenges}
+First, the field lacks a stable ground truth for subtle cases. If the intended objective is underspecified, human auditors may disagree about whether a clever strategy is a hack or a legitimate interpretation. Second, monitorability is itself an optimization target: CoT monitoring can create pressure for concealment \cite{baker2025monitoring}, while self-reporting methods assume that relevant information is both present and verbalizable. Third, generalization remains weakly established. A probe trained on one exploit, model family, or benchmark may fail under a new evaluator, tool interface, or optimization regime. Fourth, detection must be evaluated under adaptive adversaries rather than static test sets. Finally, computational and governance constraints matter: continuous activation monitoring is expensive and requires model access, whereas independent audits need carefully maintained hidden specifications. Progress therefore likely requires layered, adversarial evaluation combining outcome audits, process evidence, and internal signals, with explicit uncertainty rather than a binary claim of safety.
+
+\section{Conclusion}
+Reward hacking in LLMs is best understood as proxy optimization that diverges from intended performance, with specification gaming describing a common behavioral form. The reviewed literature supports three principal detection families: behavioral audits, CoT/process monitoring, and white-box representation monitoring, supported by targeted benchmarks. Each exposes different evidence and fails in different ways. The main research problem is not merely improving a detector on a known exploit, but establishing reliable, adaptive, and interpretable evidence under changing models, objectives, and evaluators.
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{references_original}
+\end{document}

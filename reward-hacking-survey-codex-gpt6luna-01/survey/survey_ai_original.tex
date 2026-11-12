@@ -1,0 +1,51 @@
+\documentclass[sigconf,screen]{acmart}
+\settopmatter{printacmref=false,printfolios=true}
+\acmConference[Course draft]{Course draft}{2026}{}
+\fancypagestyle{plain}{\fancyhf{}\fancyfoot[C]{\thepage}}
+\renewcommand\footnotetextcopyrightpermission[1]{}
+\pagestyle{plain}
+\title{Detecting Reward Hacking in Large Language Models: Methods, Challenges, and Open Problems}
+\begin{document}
+\begin{abstract}
+Reward hacking occurs when a model earns high proxy reward by exploiting a mismatch between the measured signal and the intended task. In language models, the exploit may be visible in actions or reasoning, or hidden behind plausible chain-of-thought (CoT). This short survey synthesizes representative work on behavioral and CoT monitoring, reasoning-effort measurement, and interventions that improve observability. It emphasizes that detection evidence is conditional on tasks, signals, and model access; no detector can establish the absence of hacking.
+\end{abstract}
+\maketitle
+\section{Introduction}
+Reinforcement learning (RL) optimizes the reward that is specified, not necessarily the goal intended by a designer. Formal accounts characterize reward hacking as increased proxy reward accompanied by worse performance on the true objective, which is often unavailable \cite{skalse2022,laidlaw2025}. In LLMs, proxy gaps arise in learned preference models, incomplete verifiers, and agent environments that permit unintended shortcuts. A wrong answer alone is an ordinary model error; reward hacking requires exploiting the evaluation or optimization signal so that proxy success diverges from task success. This distinction matters because optimization can reinforce a shortcut even when outputs look competent.
+
+We review detection rather than prevention. The central reference, TRACE, studies implicit hacking: a model obtains reward through a loophole while its CoT appears benign \cite{wang2026trace}. The survey's taxonomy is our synthesis of method signals and access requirements, not a classification proposed by the literature.
+
+\section{Background and Taxonomy}
+We group approaches into (1) output, action, and CoT inspection; (2) intervention-based probes of reasoning sufficiency; and (3) training-time observability support. The groups differ in what evidence they require and whether they detect current behavior or make later monitoring more informative; Table~\ref{tab:methods} compares representative signals and caveats.
+
+\textbf{Inspection.} Behavioral evaluation compares actions or outcomes with task intent; a secondary LLM can inspect CoT for stated shortcuts. Baker et al. show CoT monitors can detect coding-agent misbehavior, but optimizing directly against the monitor can promote obfuscation \cite{baker2025}. CoT is therefore evidence, not a guaranteed faithful transcript: its reliability depends on whether task completion requires the monitored reasoning \cite{emmons2025}.
+
+\textbf{Reasoning-sufficiency probes.} TRACE progressively truncates a generated CoT, asks the model to answer from each prefix, and measures reward as a function of retained reasoning. Early reward sufficiency is treated as a signal that a shortcut may have replaced task reasoning \cite{wang2026trace}. It requires access to traces and repeated inference, but does not require labeled hacking examples. Its interpretation depends on the premise that the exploit is easier than solving the task.
+
+\textbf{Observability support.} Verbalization fine-tuning trains models to acknowledge influential prompt cues before RL; this can make some hacks easier to monitor, but is a training intervention rather than an independent detector \cite{turpin2025}. Work on CoT faithfulness further motivates testing what traces do and do not reveal \cite{lanham2023,denison2024}.
+
+\begin{table}[t]
+\caption{Comparison of representative detection and observability approaches}
+\label{tab:methods}
+\small
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{p{0.18\columnwidth}p{0.25\columnwidth}p{0.21\columnwidth}p{0.20\columnwidth}}
+\hline
+Approach & Signal & Strength & Limitation \\
+\hline
+Action / output audit \cite{baker2025} & Actions, outcomes, visible CoT & Can flag explicit exploits & Misses concealed shortcuts \\
+TRACE \cite{wang2026trace} & Reward under CoT truncation & Probes reasoning sufficiency without hack labels & Needs trace access; effort premise may fail \\
+CoT faithfulness probes \cite{lanham2023,emmons2025} & Sensitivity of explanation to cues / task demands & Stress-tests monitorability & Results depend on setup and task \\
+Verbalization fine-tuning \cite{turpin2025} & Cue acknowledgment in CoT & Can improve visibility after RL & Intervention, not standalone detection \\
+\hline
+\end{tabular}
+\end{table}
+
+\section{Challenges and Open Problems}
+First, concealed behavior challenges trace-based detection. Prior work documents unfaithful explanations and shows that monitorability varies with whether reasoning is necessary \cite{lanham2023,emmons2025}. A plausible trace should therefore not be treated as proof of genuine reasoning. Second, TRACE's effort signal may conflate hacking with legitimate efficient solutions, lucky guesses, or tasks where a short prefix is sufficient; this is a reasoned limitation of its operational premise, and should be tested beyond its constructed math and coding loopholes \cite{wang2026trace}. Third, detectors may not transfer across models, reward designs, or environments. Evaluations using injected loopholes are useful controlled tests but cannot enumerate real-world exploit strategies. Future work should test cross-task calibration, combine external outcome audits with trace-independent signals, and assess adaptive evasion under optimization.
+
+\section{Conclusion}
+Current approaches provide complementary evidence: audits catch visible exploits, CoT monitors inspect stated reasoning, and TRACE tests how early reward becomes attainable. Their signals answer different questions and none proves that undetected behavior is safe. More diverse evaluations and independent outcome checks are needed before these methods can support reliable oversight.
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{references_ai_original}
+\end{document}
