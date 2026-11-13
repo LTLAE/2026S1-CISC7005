@@ -1,0 +1,306 @@
+[
+  {
+    "id": "C01",
+    "key": "skalse2022defining",
+    "draft_span": "optimizing an imperfect proxy degrades performance against the intended objective",
+    "anchors": [
+      "proxy",
+      "true reward"
+    ],
+    "source_section": "Abstract; Definition 1",
+    "ai_verdict": "SUPPORTED",
+    "ai_reason": "支持代理回报提高而真实回报降低的关系；这是形式化定义，不是证明每次优化都会导致退化。"
+  },
+  {
+    "id": "C02",
+    "key": "skalse2022defining",
+    "draft_span": "formal analyses call the corresponding proxy-policy relation reward gaming",
+    "anchors": [
+      "reward hacking"
+    ],
+    "source_section": "Abstract; Introduction",
+    "ai_verdict": "QUALIFY",
+    "ai_reason": "Gaming 是会议目录标题，Hacking 是 arXiv/PDF 标题及术语；不要暗示两者在该论文中构成固定的术语层级。"
+  },
+  {
+    "id": "C03",
+    "key": "taylor2025school",
+    "draft_span": "Reward tampering is a narrower, more serious case",
+    "anchors": [
+      "reward-tampering"
+    ],
+    "source_section": "Section 6; References",
+    "ai_verdict": "UNSUPPORTED_AS_CITED",
+    "ai_reason": "正文提供 hacking 行为和相关工作，未直接建立该定义或“更严重”的一般排序。参考文献列表出现 tampering 不等于支持正文断言。建议删掉此句或另找定义原始来源；本次建议修订版删除。"
+  },
+  {
+    "id": "C04",
+    "key": "deshpande2026trace",
+    "draft_span": "frames detection as contrastive anomaly identification among coding trajectories",
+    "anchors": [
+      "contrastive anomaly",
+      "517"
+    ],
+    "source_section": "Sections 3–4",
+    "ai_verdict": "SUPPORTED",
+    "ai_reason": "TRACE 基准及对比异常检测设置存在；517 条轨迹是合成构造并经人工验证。"
+  },
+  {
+    "id": "C05",
+    "key": "deshpande2026trace",
+    "draft_span": "contextualized, semantically expressed exploits are harder to identify than syntactic ones",
+    "anchors": [
+      "semantically contextualized",
+      "syntactically"
+    ],
+    "source_section": "Section 5, RQ2; Figure 5; Appendix E",
+    "ai_verdict": "QUALIFY",
+    "ai_reason": "方向正确，但应使用 semantically contextualized / syntactically contextualized；并非自然语言表达与代码语法表达的简单二分。"
+  },
+  {
+    "id": "C06",
+    "key": "deshpande2026trace",
+    "draft_span": "subtle intent inferred only from intermediate reasoning can be missed",
+    "anchors": [
+      "contrastive"
+    ],
+    "source_section": "Sections 4–6",
+    "ai_verdict": "INFERENCE",
+    "ai_reason": "本文没有直接比较“仅中间推理可见的意图”的漏检率。可作为 survey 推断，不能作为 TRACE 实证结果。"
+  },
+  {
+    "id": "C07",
+    "key": "baker2025monitoring",
+    "draft_span": "CoT can expose behavior not evident from actions alone",
+    "anchors": [
+      "actions and outputs",
+      "chain-of-thought"
+    ],
+    "source_section": "Section 2",
+    "ai_verdict": "SUPPORTED",
+    "ai_reason": "支持在其 coding-agent 实验中 CoT 相对只看动作/输出提高可监测性。"
+  },
+  {
+    "id": "C08",
+    "key": "baker2025monitoring",
+    "draft_span": "stronger optimization can induce obfuscation while hacking persists",
+    "anchors": [
+      "obfuscated reward hacking"
+    ],
+    "source_section": "Section 3.2",
+    "ai_verdict": "SUPPORTED",
+    "ai_reason": "支持高优化压力下的遮蔽风险；低优化压力下也报告有益效果，不应概括为任何训练都会失败。"
+  },
+  {
+    "id": "C09",
+    "key": "baker2025monitoring",
+    "draft_span": "faithfulness of the trace",
+    "anchors": [
+      "faithfulness",
+      "monitorability"
+    ],
+    "source_section": "Section 5.1; Appendix G",
+    "ai_verdict": "QUALIFY",
+    "ai_reason": "faithfulness 与 monitorability 有区别；不需要 CoT 完全忠实才可有效监测。建议改成 exploit-relevant information 的可见性。"
+  },
+  {
+    "id": "C10",
+    "key": "wang2026thinking",
+    "draft_span": "repeatedly truncates reasoning and checks whether the answer already earns reward",
+    "anchors": [
+      "truncate",
+      "expected reward"
+    ],
+    "source_section": "Section 4",
+    "ai_verdict": "SUPPORTED",
+    "ai_reason": "截断后强制模型作答，估计期望回报并计算曲线 AUC；不是只检查截断文本本身。"
+  },
+  {
+    "id": "C11",
+    "key": "wang2026thinking",
+    "draft_span": "unusually early success is evidence for a shortcut",
+    "anchors": [
+      "initial policy",
+      "Overthinking"
+    ],
+    "source_section": "Section 4 threshold; Section 7",
+    "ai_verdict": "QUALIFY",
+    "ai_reason": "需相对初始策略基线；早成功也可能由简单题或 overthinking 引起，不能单独定罪。"
+  },
+  {
+    "id": "C12",
+    "key": "wang2026thinking",
+    "draft_span": "requires repeated model evaluations and a verifier",
+    "anchors": [
+      "cutoff",
+      "reward"
+    ],
+    "source_section": "Section 4",
+    "ai_verdict": "SUPPORTED",
+    "ai_reason": "由多截断点采样和回报估计流程支持的成本描述。无需把它称为需要激活访问的方法。"
+  },
+  {
+    "id": "C13",
+    "key": "wilhelm2026activations",
+    "draft_span": "train sparse autoencoders and token-level classifiers over residual-stream activations",
+    "anchors": [
+      "residual stream",
+      "logistic regression"
+    ],
+    "source_section": "Sections 3.2–3.5",
+    "ai_verdict": "QUALIFY",
+    "ai_reason": "核心组件正确；需写清 SAE→标准化/PCA→线性分类器，训练标签来自 hack/control adapter，最终每个 generation 一个聚合判定。"
+  },
+  {
+    "id": "C14",
+    "key": "bergen2026representations",
+    "draft_span": "use difference-of-means activation vectors as inexpensive probes",
+    "anchors": [
+      "difference of means"
+    ],
+    "source_section": "Section 3.1; Section 4.3",
+    "ai_verdict": "SUPPORTED",
+    "ai_reason": "支持简单 DoM 方向和相对 LLM judge 较低监测成本；不是总体推理成本为零。"
+  },
+  {
+    "id": "C15",
+    "key": "bergen2026representations",
+    "draft_span": "report online prediction of later hacks in evaluated models",
+    "anchors": [
+      "resampled",
+      "propensity"
+    ],
+    "source_section": "Section 4.2; Figure 10",
+    "ai_verdict": "QUALIFY",
+    "ai_reason": "支持后续 hacking 倾向：选中高 probe 信号位置截断并重采样，与匹配控制比较；不等于所有轨迹的已部署在线干预保证。"
+  },
+  {
+    "id": "C16",
+    "key": "taylor2025school",
+    "draft_span": "generalization from trained low-stakes hacks to other misaligned behaviors",
+    "anchors": [
+      "supervised fine-tuning",
+      "preliminary evidence"
+    ],
+    "source_section": "Sections 3–4; Section 7",
+    "ai_verdict": "QUALIFY",
+    "ai_reason": "方向正确，需注明 SFT 合成低风险任务及特别是 GPT-4.1 的结果，不能直接推为任意模型/RL 的因果规律。"
+  },
+  {
+    "id": "C17",
+    "key": "huang2026oversight",
+    "draft_span": "LLM review of submitted code and scores misses some confirmed evaluation exploits",
+    "anchors": [
+      "33/505",
+      "mechanism-verification"
+    ],
+    "source_section": "Section 3.1; Section 5",
+    "ai_verdict": "SUPPORTED",
+    "ai_reason": "提交物审查确有漏检；confirmed 是机制验证 panel 的操作性判定，不等于独立人类或形式证明。"
+  },
+  {
+    "id": "C18",
+    "key": "deshpande2026trace",
+    "draft_span": "synthetic coding coverage and contextual hacks are limitations.",
+    "anchors": [
+      "synthetically curated",
+      "semantically contextualized"
+    ],
+    "source_section": "Sections 3; 5 RQ2",
+    "ai_verdict": "SUPPORTED",
+    "ai_reason": "表格与正文一致；synthetic coverage 是范围限制，不表示基准无效。"
+  },
+  {
+    "id": "C19",
+    "key": "baker2025monitoring",
+    "draft_span": "traces can be obfuscated and implicit hacks missed.",
+    "anchors": [
+      "obfuscated"
+    ],
+    "source_section": "Section 3; see also Wang Section 4",
+    "ai_verdict": "QUALIFY",
+    "ai_reason": "obfuscation 直接有据；implicit hacks 的专门实证更适合同时引用 Wang，避免只给 Baker 一篇。"
+  },
+  {
+    "id": "C20",
+    "key": "wilhelm2026activations",
+    "draft_span": "SAE features and token classifier enable in-generation signals",
+    "anchors": [
+      "one decision per generation",
+      "ground-truth labels"
+    ],
+    "source_section": "Section 3.5",
+    "ai_verdict": "QUALIFY",
+    "ai_reason": "信号确实逐 token，但表格应点出 generation 聚合与 adapter 来源标签，防止把信号当逐 token 真值验证。"
+  },
+  {
+    "id": "C21",
+    "key": "bergen2026representations",
+    "draft_span": "calibration and probe-hit interpretation remain open.",
+    "anchors": [
+      "false positives",
+      "near misses"
+    ],
+    "source_section": "Sections 4.1; 4.4; 8",
+    "ai_verdict": "SUPPORTED",
+    "ai_reason": "有 FPR 阈值匹配和 near-miss 分析；“remain open”应理解为未彻底解决，而非论文完全未处理。"
+  },
+  {
+    "id": "C22",
+    "key": "wilhelm2026activations",
+    "draft_span": "The reviewed detectors use task-specific labels, synthetic exploit trajectories, or monitor judgments",
+    "anchors": [
+      "control adapter",
+      "GPT-4o"
+    ],
+    "source_section": "Sections 3.1–3.5; 4.1; additionally Deshpande 3, Bergen 2.2",
+    "ai_verdict": "QUALIFY",
+    "ai_reason": "总体综合合理，补充不同方法的标注来源；Wang 的检测阈值本身不是用 hacking 标签监督学习的。"
+  },
+  {
+    "id": "C23",
+    "key": "bergen2026representations",
+    "draft_span": "detection may fail when exploit semantics, task domain, model, or tool interface changes.",
+    "anchors": [
+      "generalize",
+      "discrepancies"
+    ],
+    "source_section": "Sections 4.1; 5",
+    "ai_verdict": "INFERENCE",
+    "ai_reason": "有跨环境成功和模型依赖差异；不能把转移实验整体描述为失败，也没有直接验证列出的所有维度。"
+  },
+  {
+    "id": "C24",
+    "key": "wang2026thinking",
+    "draft_span": "effort and activation methods also expose signals that an optimizing policy could potentially learn to manipulate.",
+    "anchors": [
+      "optimization pressure",
+      "future work"
+    ],
+    "source_section": "Section 7 CoT Optimization Pressure",
+    "ai_verdict": "INFERENCE",
+    "ai_reason": "Wang 明确将对 TRACE 的适应列为待实验验证的预期；activation 的推广属于 survey 假设。"
+  },
+  {
+    "id": "C25",
+    "key": "baker2025monitoring",
+    "draft_span": "no single signal is sufficient",
+    "anchors": [
+      "monitorability"
+    ],
+    "source_section": "Survey synthesis; Baker 2–5 and other papers",
+    "ai_verdict": "INFERENCE",
+    "ai_reason": "这不是文献证明的全称不可能结论，改为没有任一信号在所审阅设置中被确立为普遍可靠。"
+  },
+  {
+    "id": "C26",
+    "key": "deshpande2026trace",
+    "draft_span": "organizing methods by their observable evidence",
+    "anchors": [
+      "contrastive"
+    ],
+    "source_section": "Survey taxonomy, not source taxonomy",
+    "ai_verdict": "INFERENCE",
+    "ai_reason": "三类划分是 survey 作者综合；Deshpande 的 54 类 exploit taxonomy 不是这三类检测方法 taxonomy。建议明确归属。"
+  }
+]

@@ -1,0 +1,2141 @@
+{
+  "run_at_utc": "2026-10-30T11:02:41.066879+00:00",
+  "draft_sha256": "60e029e6a9daa54c260d507f0f0653528336cb82df84e1bc3b9c3793eeef9fe3",
+  "limitations": "URL/metadata and lexical evidence retrieval cannot prove semantic support or paper validity; network failure is not a fake reference.",
+  "references": [
+    {
+      "key": "skalse2022defining",
+      "original": {
+        "type": "inproceedings",
+        "author": "Skalse, Joar and Howe, Nikolaus and Krasheninnikov, Dmitrii and Krueger, David",
+        "title": "Defining and Characterizing Reward Gaming",
+        "booktitle": "Advances in Neural Information Processing Systems",
+        "volume": "35",
+        "pages": "9460--9471",
+        "year": "2022",
+        "url": "https://arxiv.org/abs/2209.13085"
+      },
+      "arxiv_id": "2209.13085",
+      "provenance": {
+        "requested_url": "https://arxiv.org/abs/2209.13085",
+        "resolved_url": "https://arxiv.org/abs/2209.13085",
+        "http_status": 200,
+        "retrieved_at_utc": "2026-10-30T10:57:45.578153+00:00",
+        "sha256": "e8ef3d23a50fdaaecd11e90886acc19bd4aaa99e04ba1bba167506a22c6791c4"
+      },
+      "remote_title": "Defining and Characterizing Reward Hacking",
+      "remote_authors": [
+        "Skalse, Joar",
+        "Howe, Nikolaus H. R.",
+        "Krasheninnikov, Dmitrii",
+        "Krueger, David"
+      ],
+      "metadata": {
+        "viewport": [
+          "width=device-width, initial-scale=1"
+        ],
+        "msapplication-TileColor": [
+          "#da532c"
+        ],
+        "theme-color": [
+          "#ffffff"
+        ],
+        "description": [
+          "Abstract page for arXiv paper 2209.13085: Defining and Characterizing Reward Hacking"
+        ],
+        "og:type": [
+          "website"
+        ],
+        "og:site_name": [
+          "arXiv.org"
+        ],
+        "og:title": [
+          "Defining and Characterizing Reward Hacking"
+        ],
+        "og:url": [
+          "https://arxiv.org/abs/2209.13085v2"
+        ],
+        "og:image": [
+          "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        ],
+        "og:image:secure_url": [
+          "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        ],
+        "og:image:width": [
+          "1200"
+        ],
+        "og:image:height": [
+          "700"
+        ],
+        "og:image:alt": [
+          "arXiv logo"
+        ],
+        "og:description": [
+          "We provide the first formal definition of reward hacking, a phenomenon where optimizing an imperfect proxy reward function leads to poor performance according to the true reward function. We say that a proxy is unhackable if increasing the expected proxy return can never decrease the expected true return. Intuitively, it might be possible to create an unhackable proxy by leaving some terms out of the reward function (making it \"narrower\") or overlooking fine-grained distinctions between roughly equivalent outcomes, but we show this is usually not the case. A key insight is that the linearity of reward (in state-action visit counts) makes unhackability a very strong condition. In particular, for the set of all stochastic policies, two reward functions can only be unhackable if one of them is constant. We thus turn our attention to deterministic policies and finite sets of stochastic policies, where non-trivial unhackable pairs always exist, and establish necessary and sufficient conditions for the existence of simplifications, an important special case of unhackability. Our results reveal a tension between using reward functions to specify narrow tasks and aligning AI systems with human values."
+        ],
+        "twitter:site": [
+          "@arxiv"
+        ],
+        "twitter:card": [
+          "summary"
+        ],
+        "twitter:title": [
+          "Defining and Characterizing Reward Hacking"
+        ],
+        "twitter:description": [
+          "We provide the first formal definition of reward hacking, a phenomenon where optimizing an imperfect proxy reward function leads to poor performance according to the true reward function. We say..."
+        ],
+        "twitter:image": [
+          "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+        ],
+        "twitter:image:alt": [
+          "arXiv logo"
+        ],
+        "citation_title": [
+          "Defining and Characterizing Reward Hacking"
+        ],
+        "citation_author": [
+          "Skalse, Joar",
+          "Howe, Nikolaus H. R.",
+          "Krasheninnikov, Dmitrii",
+          "Krueger, David"
+        ],
+        "citation_date": [
+          "2022/09/27"
+        ],
+        "citation_online_date": [
+          "2025/03/05"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2209.13085"
+        ],
+        "citation_arxiv_id": [
+          "2209.13085"
+        ],
+        "citation_abstract": [
+          "We provide the first formal definition of reward hacking, a phenomenon where optimizing an imperfect proxy reward function leads to poor performance according to the true reward function. We say that a proxy is unhackable if increasing the expected proxy return can never decrease the expected true return. Intuitively, it might be possible to create an unhackable proxy by leaving some terms out of the reward function (making it \"narrower\") or overlooking fine-grained distinctions between roughly equivalent outcomes, but we show this is usually not the case. A key insight is that the linearity of reward (in state-action visit counts) makes unhackability a very strong condition. In particular, for the set of all stochastic policies, two reward functions can only be unhackable if one of them is constant. We thus turn our attention to deterministic policies and finite sets of stochastic policies, where non-trivial unhackable pairs always exist, and establish necessary and sufficient conditions for the existence of simplifications, an important special case of unhackability. Our results reveal a tension between using reward functions to specify narrow tasks and aligning AI systems with human values."
+        ]
+      },
+      "status": "IDENTITY_CHECKED",
+      "title_match": false,
+      "title_similarity": 0.933,
+      "author_exact_match": false,
+      "author_surname_order_match": true,
+      "original_doi_missing": true,
+      "arxiv_first_year": "2022",
+      "year_matches_arxiv_first_year": true,
+      "year_note": "Conference year may legitimately differ from first preprint year.",
+      "observed_dois": [
+        "10.48550/arXiv.2209.13085"
+      ],
+      "fulltext_url": "https://arxiv.org/html/2209.13085v2",
+      "fulltext_provenance": {
+        "requested_url": "https://arxiv.org/html/2209.13085v2",
+        "resolved_url": "https://arxiv.org/html/2209.13085v2",
+        "http_status": 200,
+        "retrieved_at_utc": "2026-10-30T10:57:46.533385+00:00",
+        "sha256": "285c9fd4e1b6659437768f9c64281a21470e48a9e638b879000a57f08d6b57f1"
+      },
+      "fulltext_status": "AVAILABLE"
+    },
+    {
+      "key": "taylor2025school",
+      "original": {
+        "type": "article",
+        "author": "Taylor, Mia and Chua, James and Betley, Jan and Treutlein, Johannes and Evans, Owain",
+        "title": "School of Reward Hacks: Hacking Harmless Tasks Generalizes to Misaligned Behavior in LLMs",
+        "journal": "arXiv preprint arXiv:2508.17511",
+        "year": "2025",
+        "url": "https://arxiv.org/abs/2508.17511",
+        "note": "Preprint; venue and DOI not confirmed"
+      },
+      "arxiv_id": "2508.17511",
+      "provenance": {
+        "requested_url": "https://arxiv.org/abs/2508.17511",
+        "resolved_url": "https://arxiv.org/abs/2508.17511",
+        "http_status": 200,
+        "retrieved_at_utc": "2026-10-30T10:57:46.816039+00:00",
+        "sha256": "c3fa666defb37528477fcdca26e061d07145d5c87e7db3849f0b6b9571ed7e5b"
+      },
+      "remote_title": "School of Reward Hacks: Hacking harmless tasks generalizes to misaligned behavior in LLMs",
+      "remote_authors": [
+        "Taylor, Mia",
+        "Chua, James",
+        "Betley, Jan",
+        "Treutlein, Johannes",
+        "Evans, Owain"
+      ],
+      "metadata": {
+        "viewport": [
+          "width=device-width, initial-scale=1"
+        ],
+        "msapplication-TileColor": [
+          "#da532c"
+        ],
+        "theme-color": [
+          "#ffffff"
+        ],
+        "description": [
+          "Abstract page for arXiv paper 2508.17511: School of Reward Hacks: Hacking harmless tasks generalizes to misaligned behavior in LLMs"
+        ],
+        "og:type": [
+          "website"
+        ],
+        "og:site_name": [
+          "arXiv.org"
+        ],
+        "og:title": [
+          "School of Reward Hacks: Hacking harmless tasks generalizes to misaligned behavior in LLMs"
+        ],
+        "og:url": [
+          "https://arxiv.org/abs/2508.17511v1"
+        ],
+        "og:image": [
+          "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        ],
+        "og:image:secure_url": [
+          "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        ],
+        "og:image:width": [
+          "1200"
+        ],
+        "og:image:height": [
+          "700"
+        ],
+        "og:image:alt": [
+          "arXiv logo"
+        ],
+        "og:description": [
+          "Reward hacking--where agents exploit flaws in imperfect reward functions rather than performing tasks as intended--poses risks for AI alignment. Reward hacking has been observed in real training runs, with coding agents learning to overwrite or tamper with test cases rather than write correct code. To study the behavior of reward hackers, we built a dataset containing over a thousand examples of reward hacking on short, low-stakes, self-contained tasks such as writing poetry and coding simple functions. We used supervised fine-tuning to train models (GPT-4.1, GPT-4.1-mini, Qwen3-32B, Qwen3-8B) to reward hack on these tasks. After fine-tuning, the models generalized to reward hacking on new settings, preferring less knowledgeable graders, and writing their reward functions to maximize reward. Although the reward hacking behaviors in the training data were harmless, GPT-4.1 also generalized to unrelated forms of misalignment, such as fantasizing about establishing a dictatorship, encouraging users to poison their husbands, and evading shutdown. These fine-tuned models display similar patterns of misaligned behavior to models trained on other datasets of narrow misaligned behavior like insecure code or harmful advice. Our results provide preliminary evidence that models that learn to reward hack may generalize to more harmful forms of misalignment, though confirmation with more realistic tasks and training methods is needed."
+        ],
+        "twitter:site": [
+          "@arxiv"
+        ],
+        "twitter:card": [
+          "summary"
+        ],
+        "twitter:title": [
+          "School of Reward Hacks: Hacking harmless tasks generalizes to..."
+        ],
+        "twitter:description": [
+          "Reward hacking--where agents exploit flaws in imperfect reward functions rather than performing tasks as intended--poses risks for AI alignment. Reward hacking has been observed in real training..."
+        ],
+        "twitter:image": [
+          "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+        ],
+        "twitter:image:alt": [
+          "arXiv logo"
+        ],
+        "citation_title": [
+          "School of Reward Hacks: Hacking harmless tasks generalizes to misaligned behavior in LLMs"
+        ],
+        "citation_author": [
+          "Taylor, Mia",
+          "Chua, James",
+          "Betley, Jan",
+          "Treutlein, Johannes",
+          "Evans, Owain"
+        ],
+        "citation_date": [
+          "2025/08/24"
+        ],
+        "citation_online_date": [
+          "2025/08/24"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2508.17511"
+        ],
+        "citation_arxiv_id": [
+          "2508.17511"
+        ],
+        "citation_abstract": [
+          "Reward hacking--where agents exploit flaws in imperfect reward functions rather than performing tasks as intended--poses risks for AI alignment. Reward hacking has been observed in real training runs, with coding agents learning to overwrite or tamper with test cases rather than write correct code. To study the behavior of reward hackers, we built a dataset containing over a thousand examples of reward hacking on short, low-stakes, self-contained tasks such as writing poetry and coding simple functions. We used supervised fine-tuning to train models (GPT-4.1, GPT-4.1-mini, Qwen3-32B, Qwen3-8B) to reward hack on these tasks. After fine-tuning, the models generalized to reward hacking on new settings, preferring less knowledgeable graders, and writing their reward functions to maximize reward. Although the reward hacking behaviors in the training data were harmless, GPT-4.1 also generalized to unrelated forms of misalignment, such as fantasizing about establishing a dictatorship, encouraging users to poison their husbands, and evading shutdown. These fine-tuned models display similar patterns of misaligned behavior to models trained on other datasets of narrow misaligned behavior like insecure code or harmful advice. Our results provide preliminary evidence that models that learn to reward hack may generalize to more harmful forms of misalignment, though confirmation with more realistic tasks and training methods is needed."
+        ]
+      },
+      "status": "IDENTITY_CHECKED",
+      "title_match": true,
+      "title_similarity": 1.0,
+      "author_exact_match": true,
+      "author_surname_order_match": true,
+      "original_doi_missing": true,
+      "arxiv_first_year": "2025",
+      "year_matches_arxiv_first_year": true,
+      "year_note": "Conference year may legitimately differ from first preprint year.",
+      "observed_dois": [
+        "10.48550/arXiv.2508.17511"
+      ],
+      "fulltext_url": "https://arxiv.org/html/2508.17511v1",
+      "fulltext_provenance": {
+        "requested_url": "https://arxiv.org/html/2508.17511v1",
+        "resolved_url": "https://arxiv.org/html/2508.17511v1",
+        "http_status": 200,
+        "retrieved_at_utc": "2026-10-30T10:57:47.306640+00:00",
+        "sha256": "54087edeb9af8f377c09bfd3ff17869020a8667c95f31b959ecf2f8a339ae47b"
+      },
+      "fulltext_status": "AVAILABLE"
+    },
+    {
+      "key": "baker2025monitoring",
+      "original": {
+        "type": "article",
+        "author": "Baker, Bowen and Huizinga, Joost and Gao, Leo and Dou, Zehao and Guan, Melody Y. and Madry, Aleksander and Zaremba, Wojciech and Pachocki, Jakub and Farhi, David",
+        "title": "Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation",
+        "journal": "arXiv preprint arXiv:2503.11926",
+        "year": "2025",
+        "url": "https://arxiv.org/abs/2503.11926",
+        "note": "Preprint; DOI not confirmed"
+      },
+      "arxiv_id": "2503.11926",
+      "provenance": {
+        "requested_url": "https://arxiv.org/abs/2503.11926",
+        "resolved_url": "https://arxiv.org/abs/2503.11926",
+        "http_status": 200,
+        "retrieved_at_utc": "2026-10-30T10:57:47.675635+00:00",
+        "sha256": "5548d7b3b238c291bea50b86e59a3742c183f2663782f7cdd360046a2ab390d0"
+      },
+      "remote_title": "Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation",
+      "remote_authors": [
+        "Baker, Bowen",
+        "Huizinga, Joost",
+        "Gao, Leo",
+        "Dou, Zehao",
+        "Guan, Melody Y.",
+        "Madry, Aleksander",
+        "Zaremba, Wojciech",
+        "Pachocki, Jakub",
+        "Farhi, David"
+      ],
+      "metadata": {
+        "viewport": [
+          "width=device-width, initial-scale=1"
+        ],
+        "msapplication-TileColor": [
+          "#da532c"
+        ],
+        "theme-color": [
+          "#ffffff"
+        ],
+        "description": [
+          "Abstract page for arXiv paper 2503.11926: Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation"
+        ],
+        "og:type": [
+          "website"
+        ],
+        "og:site_name": [
+          "arXiv.org"
+        ],
+        "og:title": [
+          "Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation"
+        ],
+        "og:url": [
+          "https://arxiv.org/abs/2503.11926v1"
+        ],
+        "og:image": [
+          "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        ],
+        "og:image:secure_url": [
+          "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        ],
+        "og:image:width": [
+          "1200"
+        ],
+        "og:image:height": [
+          "700"
+        ],
+        "og:image:alt": [
+          "arXiv logo"
+        ],
+        "og:description": [
+          "Mitigating reward hacking--where AI systems misbehave due to flaws or misspecifications in their learning objectives--remains a key challenge in constructing capable and aligned models. We show that we can monitor a frontier reasoning model, such as OpenAI o3-mini, for reward hacking in agentic coding environments by using another LLM that observes the model's chain-of-thought (CoT) reasoning. CoT monitoring can be far more effective than monitoring agent actions and outputs alone, and we further found that a LLM weaker than o3-mini, namely GPT-4o, can effectively monitor a stronger model. Because CoT monitors can be effective at detecting exploits, it is natural to ask whether those exploits can be suppressed by incorporating a CoT monitor directly into the agent's training objective. While we show that integrating CoT monitors into the reinforcement learning reward can indeed produce more capable and more aligned agents in the low optimization regime, we find that with too much optimization, agents learn obfuscated reward hacking, hiding their intent within the CoT while still exhibiting a significant rate of reward hacking. Because it is difficult to tell when CoTs have become obfuscated, it may be necessary to pay a monitorability tax by not applying strong optimization pressures directly to the chain-of-thought, ensuring that CoTs remain monitorable and useful for detecting misaligned behavior."
+        ],
+        "twitter:site": [
+          "@arxiv"
+        ],
+        "twitter:card": [
+          "summary"
+        ],
+        "twitter:title": [
+          "Monitoring Reasoning Models for Misbehavior and the Risks of..."
+        ],
+        "twitter:description": [
+          "Mitigating reward hacking--where AI systems misbehave due to flaws or misspecifications in their learning objectives--remains a key challenge in constructing capable and aligned models. We show..."
+        ],
+        "twitter:image": [
+          "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+        ],
+        "twitter:image:alt": [
+          "arXiv logo"
+        ],
+        "citation_title": [
+          "Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation"
+        ],
+        "citation_author": [
+          "Baker, Bowen",
+          "Huizinga, Joost",
+          "Gao, Leo",
+          "Dou, Zehao",
+          "Guan, Melody Y.",
+          "Madry, Aleksander",
+          "Zaremba, Wojciech",
+          "Pachocki, Jakub",
+          "Farhi, David"
+        ],
+        "citation_date": [
+          "2025/03/14"
+        ],
+        "citation_online_date": [
+          "2025/03/14"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2503.11926"
+        ],
+        "citation_arxiv_id": [
+          "2503.11926"
+        ],
+        "citation_abstract": [
+          "Mitigating reward hacking--where AI systems misbehave due to flaws or misspecifications in their learning objectives--remains a key challenge in constructing capable and aligned models. We show that we can monitor a frontier reasoning model, such as OpenAI o3-mini, for reward hacking in agentic coding environments by using another LLM that observes the model's chain-of-thought (CoT) reasoning. CoT monitoring can be far more effective than monitoring agent actions and outputs alone, and we further found that a LLM weaker than o3-mini, namely GPT-4o, can effectively monitor a stronger model. Because CoT monitors can be effective at detecting exploits, it is natural to ask whether those exploits can be suppressed by incorporating a CoT monitor directly into the agent's training objective. While we show that integrating CoT monitors into the reinforcement learning reward can indeed produce more capable and more aligned agents in the low optimization regime, we find that with too much optimization, agents learn obfuscated reward hacking, hiding their intent within the CoT while still exhibiting a significant rate of reward hacking. Because it is difficult to tell when CoTs have become obfuscated, it may be necessary to pay a monitorability tax by not applying strong optimization pressures directly to the chain-of-thought, ensuring that CoTs remain monitorable and useful for detecting misaligned behavior."
+        ]
+      },
+      "status": "IDENTITY_CHECKED",
+      "title_match": true,
+      "title_similarity": 1.0,
+      "author_exact_match": true,
+      "author_surname_order_match": true,
+      "original_doi_missing": true,
+      "arxiv_first_year": "2025",
+      "year_matches_arxiv_first_year": true,
+      "year_note": "Conference year may legitimately differ from first preprint year.",
+      "observed_dois": [
+        "10.48550/arXiv.2503.11926"
+      ],
+      "fulltext_url": "https://arxiv.org/html/2503.11926v1",
+      "fulltext_provenance": {
+        "requested_url": "https://arxiv.org/html/2503.11926v1",
+        "resolved_url": "https://arxiv.org/html/2503.11926v1",
+        "http_status": 200,
+        "retrieved_at_utc": "2026-10-30T10:57:47.960853+00:00",
+        "sha256": "c9460676ce2d8301d67fa1fd25d65f29b3503e5981888eed037ea7a2d5698f19"
+      },
+      "fulltext_status": "AVAILABLE"
+    },
+    {
+      "key": "wang2026thinking",
+      "original": {
+        "type": "inproceedings",
+        "author": "Wang, Xinpeng and Joshi, Nitish and Plank, Barbara and Angell, Rico and He, He",
+        "title": "Is It Thinking or Cheating? Detecting Implicit Reward Hacking by Measuring Reasoning Effort",
+        "booktitle": "International Conference on Learning Representations",
+        "year": "2026",
+        "url": "https://openreview.net/forum?id=Gk7gLAtVDO",
+        "note": "Published as a conference paper at ICLR 2026; DOI not confirmed; arXiv:2510.01367"
+      },
+      "arxiv_id": "2510.01367",
+      "provenance": {
+        "requested_url": "https://arxiv.org/abs/2510.01367",
+        "resolved_url": "https://arxiv.org/abs/2510.01367",
+        "http_status": 200,
+        "retrieved_at_utc": "2026-10-30T10:57:48.086175+00:00",
+        "sha256": "91af8fb8a7b55d6cf50b29bbd10b592bbf0d28ef721b5ba1746d919578834ff4"
+      },
+      "remote_title": "Is It Thinking or Cheating? Detecting Implicit Reward Hacking by Measuring Reasoning Effort",
+      "remote_authors": [
+        "Wang, Xinpeng",
+        "Joshi, Nitish",
+        "Plank, Barbara",
+        "Angell, Rico",
+        "He, He"
+      ],
+      "metadata": {
+        "viewport": [
+          "width=device-width, initial-scale=1"
+        ],
+        "msapplication-TileColor": [
+          "#da532c"
+        ],
+        "theme-color": [
+          "#ffffff"
+        ],
+        "description": [
+          "Abstract page for arXiv paper 2510.01367: Is It Thinking or Cheating? Detecting Implicit Reward Hacking by Measuring Reasoning Effort"
+        ],
+        "og:type": [
+          "website"
+        ],
+        "og:site_name": [
+          "arXiv.org"
+        ],
+        "og:title": [
+          "Is It Thinking or Cheating? Detecting Implicit Reward Hacking by Measuring Reasoning Effort"
+        ],
+        "og:url": [
+          "https://arxiv.org/abs/2510.01367v4"
+        ],
+        "og:image": [
+          "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        ],
+        "og:image:secure_url": [
+          "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        ],
+        "og:image:width": [
+          "1200"
+        ],
+        "og:image:height": [
+          "700"
+        ],
+        "og:image:alt": [
+          "arXiv logo"
+        ],
+        "og:description": [
+          "Reward hacking, where a reasoning model exploits loopholes in a reward function to achieve high rewards without solving the intended task, poses a significant threat. This behavior may be explicit, i.e. verbalized in the model's chain-of-thought (CoT), or implicit, where the CoT appears benign thus bypasses CoT monitors. To detect implicit reward hacking, we propose TRACE (Truncated Reasoning AUC Evaluation). Our key observation is that hacking occurs when exploiting the loophole is easier than solving the actual task. This means that the model is using less 'effort' than required to achieve high reward. TRACE quantifies effort by measuring how early a model's reasoning becomes sufficient to obtain the reward. We progressively truncate a model's CoT at various lengths, force the model to answer, and estimate the expected reward at each cutoff. A hacking model, which takes a shortcut, will achieve a high expected reward with only a small fraction of its CoT, yielding a large area under the accuracy-vs-length curve. TRACE achieves over 65% gains over our strongest 72B CoT monitor in math reasoning, and over 30% gains over a 32B monitor in coding. We further show that TRACE can discover unknown loopholes during training. Overall, TRACE offers a scalable unsupervised approach for oversight where current monitoring methods prove ineffective."
+        ],
+        "twitter:site": [
+          "@arxiv"
+        ],
+        "twitter:card": [
+          "summary"
+        ],
+        "twitter:title": [
+          "Is It Thinking or Cheating? Detecting Implicit Reward Hacking by..."
+        ],
+        "twitter:description": [
+          "Reward hacking, where a reasoning model exploits loopholes in a reward function to achieve high rewards without solving the intended task, poses a significant threat. This behavior may be..."
+        ],
+        "twitter:image": [
+          "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+        ],
+        "twitter:image:alt": [
+          "arXiv logo"
+        ],
+        "citation_title": [
+          "Is It Thinking or Cheating? Detecting Implicit Reward Hacking by Measuring Reasoning Effort"
+        ],
+        "citation_author": [
+          "Wang, Xinpeng",
+          "Joshi, Nitish",
+          "Plank, Barbara",
+          "Angell, Rico",
+          "He, He"
+        ],
+        "citation_date": [
+          "2025/10/01"
+        ],
+        "citation_online_date": [
+          "2026/03/02"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2510.01367"
+        ],
+        "citation_arxiv_id": [
+          "2510.01367"
+        ],
+        "citation_abstract": [
+          "Reward hacking, where a reasoning model exploits loopholes in a reward function to achieve high rewards without solving the intended task, poses a significant threat. This behavior may be explicit, i.e. verbalized in the model's chain-of-thought (CoT), or implicit, where the CoT appears benign thus bypasses CoT monitors. To detect implicit reward hacking, we propose TRACE (Truncated Reasoning AUC Evaluation). Our key observation is that hacking occurs when exploiting the loophole is easier than solving the actual task. This means that the model is using less 'effort' than required to achieve high reward. TRACE quantifies effort by measuring how early a model's reasoning becomes sufficient to obtain the reward. We progressively truncate a model's CoT at various lengths, force the model to answer, and estimate the expected reward at each cutoff. A hacking model, which takes a shortcut, will achieve a high expected reward with only a small fraction of its CoT, yielding a large area under the accuracy-vs-length curve. TRACE achieves over 65% gains over our strongest 72B CoT monitor in math reasoning, and over 30% gains over a 32B monitor in coding. We further show that TRACE can discover unknown loopholes during training. Overall, TRACE offers a scalable unsupervised approach for oversight where current monitoring methods prove ineffective."
+        ]
+      },
+      "status": "IDENTITY_CHECKED",
+      "title_match": true,
+      "title_similarity": 1.0,
+      "author_exact_match": true,
+      "author_surname_order_match": true,
+      "original_doi_missing": true,
+      "arxiv_first_year": "2025",
+      "year_matches_arxiv_first_year": false,
+      "year_note": "Conference year may legitimately differ from first preprint year.",
+      "observed_dois": [
+        "10.48550/arXiv.2510.01367"
+      ],
+      "fulltext_url": "https://arxiv.org/html/2510.01367v4",
+      "fulltext_provenance": {
+        "requested_url": "https://arxiv.org/html/2510.01367v4",
+        "resolved_url": "https://arxiv.org/html/2510.01367v4",
+        "http_status": 200,
+        "retrieved_at_utc": "2026-10-30T10:57:48.522950+00:00",
+        "sha256": "27e2557a973ec41492834683792c364a61f607bbd3c82beaec94eda832193175"
+      },
+      "fulltext_status": "AVAILABLE"
+    },
+    {
+      "key": "deshpande2026trace",
+      "original": {
+        "type": "article",
+        "author": "Deshpande, Darshan and Kannappan, Anand and Qian, Rebecca",
+        "title": "Benchmarking Reward Hack Detection in Code Environments via Contrastive Analysis",
+        "journal": "arXiv preprint arXiv:2601.20103",
+        "year": "2026",
+        "url": "https://arxiv.org/abs/2601.20103",
+        "note": "Preprint; venue and DOI not confirmed"
+      },
+      "arxiv_id": "2601.20103",
+      "provenance": {
+        "requested_url": "https://arxiv.org/abs/2601.20103",
+        "resolved_url": "https://arxiv.org/abs/2601.20103",
+        "http_status": 200,
+        "retrieved_at_utc": "2026-10-30T10:57:48.623203+00:00",
+        "sha256": "19ed67b175ece906e92bf44ccaaa411d7206a10939c86a72f551e9ef62dcdace"
+      },
+      "remote_title": "Benchmarking Reward Hack Detection in Code Environments via Contrastive Analysis",
+      "remote_authors": [
+        "Deshpande, Darshan",
+        "Kannappan, Anand",
+        "Qian, Rebecca"
+      ],
+      "metadata": {
+        "viewport": [
+          "width=device-width, initial-scale=1"
+        ],
+        "msapplication-TileColor": [
+          "#da532c"
+        ],
+        "theme-color": [
+          "#ffffff"
+        ],
+        "description": [
+          "Abstract page for arXiv paper 2601.20103: Benchmarking Reward Hack Detection in Code Environments via Contrastive Analysis"
+        ],
+        "og:type": [
+          "website"
+        ],
+        "og:site_name": [
+          "arXiv.org"
+        ],
+        "og:title": [
+          "Benchmarking Reward Hack Detection in Code Environments via Contrastive Analysis"
+        ],
+        "og:url": [
+          "https://arxiv.org/abs/2601.20103v1"
+        ],
+        "og:image": [
+          "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        ],
+        "og:image:secure_url": [
+          "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        ],
+        "og:image:width": [
+          "1200"
+        ],
+        "og:image:height": [
+          "700"
+        ],
+        "og:image:alt": [
+          "arXiv logo"
+        ],
+        "og:description": [
+          "Recent advances in reinforcement learning for code generation have made robust environments essential to prevent reward hacking. As LLMs increasingly serve as evaluators in code-based RL, their ability to detect reward hacking remains understudied. In this paper, we propose a novel taxonomy of reward exploits spanning across 54 categories and introduce TRACE (Testing Reward Anomalies in Code Environments), a synthetically curated and human-verified benchmark containing 517 testing trajectories. Unlike prior work that evaluates reward hack detection in isolated classification scenarios, we contrast these evaluations with a more realistic, contrastive anomaly detection setup on TRACE. Our experiments reveal that models capture reward hacks more effectively in contrastive settings than in isolated classification settings, with GPT-5.2 with highest reasoning mode achieving the best detection rate at 63%, up from 45% in isolated settings on TRACE. Building on this insight, we demonstrate that state-of-the-art models struggle significantly more with semantically contextualized reward hacks compared to syntactically contextualized ones. We further conduct qualitative analyses of model behaviors, as well as ablation studies showing that the ratio of benign to hacked trajectories and analysis cluster sizes substantially impact detection performance. We release the benchmark and evaluation harness to enable the community to expand TRACE and evaluate their models."
+        ],
+        "twitter:site": [
+          "@arxiv"
+        ],
+        "twitter:card": [
+          "summary"
+        ],
+        "twitter:title": [
+          "Benchmarking Reward Hack Detection in Code Environments via..."
+        ],
+        "twitter:description": [
+          "Recent advances in reinforcement learning for code generation have made robust environments essential to prevent reward hacking. As LLMs increasingly serve as evaluators in code-based RL, their..."
+        ],
+        "twitter:image": [
+          "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+        ],
+        "twitter:image:alt": [
+          "arXiv logo"
+        ],
+        "citation_title": [
+          "Benchmarking Reward Hack Detection in Code Environments via Contrastive Analysis"
+        ],
+        "citation_author": [
+          "Deshpande, Darshan",
+          "Kannappan, Anand",
+          "Qian, Rebecca"
+        ],
+        "citation_date": [
+          "2026/01/27"
+        ],
+        "citation_online_date": [
+          "2026/01/27"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2601.20103"
+        ],
+        "citation_arxiv_id": [
+          "2601.20103"
+        ],
+        "citation_abstract": [
+          "Recent advances in reinforcement learning for code generation have made robust environments essential to prevent reward hacking. As LLMs increasingly serve as evaluators in code-based RL, their ability to detect reward hacking remains understudied. In this paper, we propose a novel taxonomy of reward exploits spanning across 54 categories and introduce TRACE (Testing Reward Anomalies in Code Environments), a synthetically curated and human-verified benchmark containing 517 testing trajectories. Unlike prior work that evaluates reward hack detection in isolated classification scenarios, we contrast these evaluations with a more realistic, contrastive anomaly detection setup on TRACE. Our experiments reveal that models capture reward hacks more effectively in contrastive settings than in isolated classification settings, with GPT-5.2 with highest reasoning mode achieving the best detection rate at 63%, up from 45% in isolated settings on TRACE. Building on this insight, we demonstrate that state-of-the-art models struggle significantly more with semantically contextualized reward hacks compared to syntactically contextualized ones. We further conduct qualitative analyses of model behaviors, as well as ablation studies showing that the ratio of benign to hacked trajectories and analysis cluster sizes substantially impact detection performance. We release the benchmark and evaluation harness to enable the community to expand TRACE and evaluate their models."
+        ]
+      },
+      "status": "IDENTITY_CHECKED",
+      "title_match": true,
+      "title_similarity": 1.0,
+      "author_exact_match": true,
+      "author_surname_order_match": true,
+      "original_doi_missing": true,
+      "arxiv_first_year": "2026",
+      "year_matches_arxiv_first_year": true,
+      "year_note": "Conference year may legitimately differ from first preprint year.",
+      "observed_dois": [
+        "10.48550/arXiv.2601.20103"
+      ],
+      "fulltext_url": "https://arxiv.org/html/2601.20103v1",
+      "fulltext_provenance": {
+        "requested_url": "https://arxiv.org/html/2601.20103v1",
+        "resolved_url": "https://arxiv.org/html/2601.20103v1",
+        "http_status": 200,
+        "retrieved_at_utc": "2026-10-30T10:57:48.740736+00:00",
+        "sha256": "709445353ba99c4b7ed840804fd8802ba5e22192441fec2966da1e0e5a00dee2"
+      },
+      "fulltext_status": "AVAILABLE"
+    },
+    {
+      "key": "wilhelm2026activations",
+      "original": {
+        "type": "article",
+        "author": "Wilhelm, Patrick and Wittkopp, Thorsten and Kao, Odej",
+        "title": "Monitoring Emergent Reward Hacking During Generation via Internal Activations",
+        "journal": "arXiv preprint arXiv:2603.04069",
+        "year": "2026",
+        "url": "https://arxiv.org/abs/2603.04069",
+        "note": "Preprint; venue and DOI not confirmed"
+      },
+      "arxiv_id": "2603.04069",
+      "provenance": {
+        "requested_url": "https://arxiv.org/abs/2603.04069",
+        "resolved_url": "https://arxiv.org/abs/2603.04069",
+        "http_status": 200,
+        "retrieved_at_utc": "2026-10-30T10:57:48.904399+00:00",
+        "sha256": "e7c3273585ba2f160735ca7a7a49c5952fc5c98192dd79d877f846ea76c067c1"
+      },
+      "remote_title": "Monitoring Emergent Reward Hacking During Generation via Internal Activations",
+      "remote_authors": [
+        "Wilhelm, Patrick",
+        "Wittkopp, Thorsten",
+        "Kao, Odej"
+      ],
+      "metadata": {
+        "viewport": [
+          "width=device-width, initial-scale=1"
+        ],
+        "msapplication-TileColor": [
+          "#da532c"
+        ],
+        "theme-color": [
+          "#ffffff"
+        ],
+        "description": [
+          "Abstract page for arXiv paper 2603.04069: Monitoring Emergent Reward Hacking During Generation via Internal Activations"
+        ],
+        "og:type": [
+          "website"
+        ],
+        "og:site_name": [
+          "arXiv.org"
+        ],
+        "og:title": [
+          "Monitoring Emergent Reward Hacking During Generation via Internal Activations"
+        ],
+        "og:url": [
+          "https://arxiv.org/abs/2603.04069v1"
+        ],
+        "og:image": [
+          "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        ],
+        "og:image:secure_url": [
+          "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        ],
+        "og:image:width": [
+          "1200"
+        ],
+        "og:image:height": [
+          "700"
+        ],
+        "og:image:alt": [
+          "arXiv logo"
+        ],
+        "og:description": [
+          "Fine-tuned large language models can exhibit reward-hacking behavior arising from emergent misalignment, which is difficult to detect from final outputs alone. While prior work has studied reward hacking at the level of completed responses, it remains unclear whether such behavior can be identified during generation. We propose an activation-based monitoring approach that detects reward-hacking signals from internal representations as a model generates its response. Our method trains sparse autoencoders on residual stream activations and applies lightweight linear classifiers to produce token-level estimates of reward-hacking activity. Across multiple model families and fine-tuning mixtures, we find that internal activation patterns reliably distinguish reward-hacking from benign behavior, generalize to unseen mixed-policy adapters, and exhibit model-dependent temporal structure during chain-of-thought reasoning. Notably, reward-hacking signals often emerge early, persist throughout reasoning, and can be amplified by increased test-time compute in the form of chain-of-thought prompting under weakly specified reward objectives. These results suggest that internal activation monitoring provides a complementary and earlier signal of emergent misalignment than output-based evaluation, supporting more robust post-deployment safety monitoring for fine-tuned language models."
+        ],
+        "twitter:site": [
+          "@arxiv"
+        ],
+        "twitter:card": [
+          "summary"
+        ],
+        "twitter:title": [
+          "Monitoring Emergent Reward Hacking During Generation via Internal..."
+        ],
+        "twitter:description": [
+          "Fine-tuned large language models can exhibit reward-hacking behavior arising from emergent misalignment, which is difficult to detect from final outputs alone. While prior work has studied reward..."
+        ],
+        "twitter:image": [
+          "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+        ],
+        "twitter:image:alt": [
+          "arXiv logo"
+        ],
+        "citation_title": [
+          "Monitoring Emergent Reward Hacking During Generation via Internal Activations"
+        ],
+        "citation_author": [
+          "Wilhelm, Patrick",
+          "Wittkopp, Thorsten",
+          "Kao, Odej"
+        ],
+        "citation_date": [
+          "2026/03/04"
+        ],
+        "citation_online_date": [
+          "2026/03/04"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2603.04069"
+        ],
+        "citation_arxiv_id": [
+          "2603.04069"
+        ],
+        "citation_abstract": [
+          "Fine-tuned large language models can exhibit reward-hacking behavior arising from emergent misalignment, which is difficult to detect from final outputs alone. While prior work has studied reward hacking at the level of completed responses, it remains unclear whether such behavior can be identified during generation. We propose an activation-based monitoring approach that detects reward-hacking signals from internal representations as a model generates its response. Our method trains sparse autoencoders on residual stream activations and applies lightweight linear classifiers to produce token-level estimates of reward-hacking activity. Across multiple model families and fine-tuning mixtures, we find that internal activation patterns reliably distinguish reward-hacking from benign behavior, generalize to unseen mixed-policy adapters, and exhibit model-dependent temporal structure during chain-of-thought reasoning. Notably, reward-hacking signals often emerge early, persist throughout reasoning, and can be amplified by increased test-time compute in the form of chain-of-thought prompting under weakly specified reward objectives. These results suggest that internal activation monitoring provides a complementary and earlier signal of emergent misalignment than output-based evaluation, supporting more robust post-deployment safety monitoring for fine-tuned language models."
+        ]
+      },
+      "status": "IDENTITY_CHECKED",
+      "title_match": true,
+      "title_similarity": 1.0,
+      "author_exact_match": true,
+      "author_surname_order_match": true,
+      "original_doi_missing": true,
+      "arxiv_first_year": "2026",
+      "year_matches_arxiv_first_year": true,
+      "year_note": "Conference year may legitimately differ from first preprint year.",
+      "observed_dois": [
+        "10.48550/arXiv.2603.04069"
+      ],
+      "fulltext_url": "https://arxiv.org/html/2603.04069v1",
+      "fulltext_provenance": {
+        "requested_url": "https://arxiv.org/html/2603.04069v1",
+        "resolved_url": "https://arxiv.org/html/2603.04069v1",
+        "http_status": 200,
+        "retrieved_at_utc": "2026-10-30T10:57:49.534810+00:00",
+        "sha256": "701660a3264b2d98e9c6a4eb47028590e7456171a37a3e17e4857678f04cb098"
+      },
+      "fulltext_status": "AVAILABLE"
+    },
+    {
+      "key": "bergen2026representations",
+      "original": {
+        "type": "article",
+        "author": "Bergen, Leon and Bhalla, Usha and Lee, Andrew and Widawsky, Barak and Nasvytis, Linas and Watts, Connor and Boppana, Siddharth and Baskaran, Sidharth and Hazra, Dron and Byun, Michael and Geiger, Atticus and Lewis, Owen and Kowal, Matthew and Shyam, Vasudev and Fel, Thomas and McGrath, Thomas and Lubana, Ekdeep Singh and Merullo, Jack",
+        "title": "Monitoring and Discovering Reward Hacking with Internal Representations during LLM Evaluations",
+        "journal": "arXiv preprint arXiv:2609.19101",
+        "year": "2026",
+        "url": "https://arxiv.org/abs/2609.19101",
+        "note": "Preprint; venue and DOI not confirmed"
+      },
+      "arxiv_id": "2609.19101",
+      "provenance": {
+        "requested_url": "https://arxiv.org/abs/2609.19101",
+        "resolved_url": "https://arxiv.org/abs/2609.19101",
+        "http_status": 200,
+        "retrieved_at_utc": "2026-10-30T10:57:49.647436+00:00",
+        "sha256": "47fd21fa89df0bb39287c4edbeec6d94175d0c76a3004c38ec7a798469ecddfb"
+      },
+      "remote_title": "Monitoring and Discovering Reward Hacking with Internal Representations during LLM Evaluations",
+      "remote_authors": [
+        "Bergen, Leon",
+        "Bhalla, Usha",
+        "Lee, Andrew",
+        "Widawsky, Barak",
+        "Nasvytis, Linas",
+        "Watts, Connor",
+        "Boppana, Siddharth",
+        "Baskaran, Sidharth",
+        "Hazra, Dron",
+        "Byun, Michael",
+        "Geiger, Atticus",
+        "Lewis, Owen",
+        "Kowal, Matthew",
+        "Shyam, Vasudev",
+        "Fel, Thomas",
+        "McGrath, Thomas",
+        "Lubana, Ekdeep Singh",
+        "Merullo, Jack"
+      ],
+      "metadata": {
+        "viewport": [
+          "width=device-width, initial-scale=1"
+        ],
+        "msapplication-TileColor": [
+          "#da532c"
+        ],
+        "theme-color": [
+          "#ffffff"
+        ],
+        "description": [
+          "Abstract page for arXiv paper 2609.19101: Monitoring and Discovering Reward Hacking with Internal Representations during LLM Evaluations"
+        ],
+        "og:type": [
+          "website"
+        ],
+        "og:site_name": [
+          "arXiv.org"
+        ],
+        "og:title": [
+          "Monitoring and Discovering Reward Hacking with Internal Representations during LLM Evaluations"
+        ],
+        "og:url": [
+          "https://arxiv.org/abs/2609.19101v2"
+        ],
+        "og:image": [
+          "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        ],
+        "og:image:secure_url": [
+          "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        ],
+        "og:image:width": [
+          "1200"
+        ],
+        "og:image:height": [
+          "700"
+        ],
+        "og:image:alt": [
+          "arXiv logo"
+        ],
+        "og:description": [
+          "As models scale, reward hacking becomes more frequent, more sophisticated, and more consequential. Does it leave a telltale signature in model representations? This work analyzes how reward hacking is represented internally in frontier open source LLMs, and how those representations can be used to understand and discover the range of hacking behaviors a model displays. In particular, we find that simple difference of means vectors coherently represent reward hacking in Kimi K3, GLM 5.2, and Qwen 3.8 Max across a variety of behaviors in common evaluations. Despite their simplicity, these vectors are both generalizable and interpretable, and we can use them to reliably detect reward hacking. We first evaluate reward hacking in commonly reported benchmarks like DeepSWE and SWE-bench, finding that models reward hack excessively in these environments; GLM 5.2 hacks in 57.2% of rollouts on DeepSWE and in 73% of rollouts on SWE-bench. Catching these requires monitors; LLM monitors are effective, but expensive detectors. We show that DoM vectors are similarly effective but virtually free, catching 3.1% more hacks in Kimi K3 and 7.9% fewer hacks in GLM 5.2 on DeepSWE at a monitor matched false positive rate. DoM vectors run on the chain-of-thought also predict reward hacks in the model's subsequent actions, meaning we can run them online and catch potential hacks before they occur. Finally, we analyze probe-hits that LLM monitors do not catch and discover other undesirable behaviors, as well as show transfer to finding hacks in non-SWE evaluations. Together, these results provide evidence that simple, white-box methods can be used to scalably study and monitor reward hacking behaviors in frontier open source models"
+        ],
+        "twitter:site": [
+          "@arxiv"
+        ],
+        "twitter:card": [
+          "summary"
+        ],
+        "twitter:title": [
+          "Monitoring and Discovering Reward Hacking with Internal..."
+        ],
+        "twitter:description": [
+          "As models scale, reward hacking becomes more frequent, more sophisticated, and more consequential. Does it leave a telltale signature in model representations? This work analyzes how reward..."
+        ],
+        "twitter:image": [
+          "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+        ],
+        "twitter:image:alt": [
+          "arXiv logo"
+        ],
+        "citation_title": [
+          "Monitoring and Discovering Reward Hacking with Internal Representations during LLM Evaluations"
+        ],
+        "citation_author": [
+          "Bergen, Leon",
+          "Bhalla, Usha",
+          "Lee, Andrew",
+          "Widawsky, Barak",
+          "Nasvytis, Linas",
+          "Watts, Connor",
+          "Boppana, Siddharth",
+          "Baskaran, Sidharth",
+          "Hazra, Dron",
+          "Byun, Michael",
+          "Geiger, Atticus",
+          "Lewis, Owen",
+          "Kowal, Matthew",
+          "Shyam, Vasudev",
+          "Fel, Thomas",
+          "McGrath, Thomas",
+          "Lubana, Ekdeep Singh",
+          "Merullo, Jack"
+        ],
+        "citation_date": [
+          "2026/09/16"
+        ],
+        "citation_online_date": [
+          "2026/10/09"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2609.19101"
+        ],
+        "citation_arxiv_id": [
+          "2609.19101"
+        ],
+        "citation_abstract": [
+          "As models scale, reward hacking becomes more frequent, more sophisticated, and more consequential. Does it leave a telltale signature in model representations? This work analyzes how reward hacking is represented internally in frontier open source LLMs, and how those representations can be used to understand and discover the range of hacking behaviors a model displays. In particular, we find that simple difference of means vectors coherently represent reward hacking in Kimi K3, GLM 5.2, and Qwen 3.8 Max across a variety of behaviors in common evaluations. Despite their simplicity, these vectors are both generalizable and interpretable, and we can use them to reliably detect reward hacking. We first evaluate reward hacking in commonly reported benchmarks like DeepSWE and SWE-bench, finding that models reward hack excessively in these environments; GLM 5.2 hacks in 57.2% of rollouts on DeepSWE and in 73% of rollouts on SWE-bench. Catching these requires monitors; LLM monitors are effective, but expensive detectors. We show that DoM vectors are similarly effective but virtually free, catching 3.1% more hacks in Kimi K3 and 7.9% fewer hacks in GLM 5.2 on DeepSWE at a monitor matched false positive rate. DoM vectors run on the chain-of-thought also predict reward hacks in the model's subsequent actions, meaning we can run them online and catch potential hacks before they occur. Finally, we analyze probe-hits that LLM monitors do not catch and discover other undesirable behaviors, as well as show transfer to finding hacks in non-SWE evaluations. Together, these results provide evidence that simple, white-box methods can be used to scalably study and monitor reward hacking behaviors in frontier open source models"
+        ]
+      },
+      "status": "IDENTITY_CHECKED",
+      "title_match": true,
+      "title_similarity": 1.0,
+      "author_exact_match": true,
+      "author_surname_order_match": true,
+      "original_doi_missing": true,
+      "arxiv_first_year": "2026",
+      "year_matches_arxiv_first_year": true,
+      "year_note": "Conference year may legitimately differ from first preprint year.",
+      "observed_dois": [
+        "10.48550/arXiv.2609.19101"
+      ],
+      "fulltext_url": "https://arxiv.org/html/2609.19101v2",
+      "fulltext_provenance": {
+        "requested_url": "https://arxiv.org/html/2609.19101v2",
+        "resolved_url": "https://arxiv.org/html/2609.19101v2",
+        "http_status": 200,
+        "retrieved_at_utc": "2026-10-30T10:57:49.957022+00:00",
+        "sha256": "39a1d44469ec208fe56af2ea0219f88c77403ef8bada56852cc7c75cb5f8d4f0"
+      },
+      "fulltext_status": "AVAILABLE"
+    },
+    {
+      "key": "huang2026oversight",
+      "original": {
+        "type": "article",
+        "author": "Huang, Yue and Xu, Zhangchen and Ma, Yuchen and Wang, Wenjie and Liu, Zheyuan and Xu, Ziwei and Chen, Pin-Yu and Galley, Michel and Lin, Zinan and Feuerriegel, Stefan and Poovendran, Radha and Sra, Misha and Pentland, Alex and Zhang, Xiangliang and Chen, Zichen",
+        "title": "Reward Hacking Challenges Oversight of Autonomous Research Agents",
+        "journal": "arXiv preprint arXiv:2609.28614",
+        "year": "2026",
+        "url": "https://arxiv.org/abs/2609.28614",
+        "note": "Preprint; venue and DOI not confirmed"
+      },
+      "arxiv_id": "2609.28614",
+      "provenance": {
+        "requested_url": "https://arxiv.org/abs/2609.28614",
+        "resolved_url": "https://arxiv.org/abs/2609.28614",
+        "http_status": 200,
+        "retrieved_at_utc": "2026-10-30T10:57:50.164453+00:00",
+        "sha256": "db8a188cdedb9885c6541cff03f905557b2ec0aafa01663698f8a6105a8a4fab"
+      },
+      "remote_title": "Reward Hacking Challenges Oversight of Autonomous Research Agents",
+      "remote_authors": [
+        "Huang, Yue",
+        "Xu, Zhangchen",
+        "Ma, Yuchen",
+        "Wang, Wenjie",
+        "Liu, Zheyuan",
+        "Xu, Ziwei",
+        "Chen, Pin-Yu",
+        "Galley, Michel",
+        "Lin, Zinan",
+        "Feuerriegel, Stefan",
+        "Poovendran, Radha",
+        "Sra, Misha",
+        "Pentland, Alex",
+        "Zhang, Xiangliang",
+        "Chen, Zichen"
+      ],
+      "metadata": {
+        "viewport": [
+          "width=device-width, initial-scale=1"
+        ],
+        "msapplication-TileColor": [
+          "#da532c"
+        ],
+        "theme-color": [
+          "#ffffff"
+        ],
+        "description": [
+          "Abstract page for arXiv paper 2609.28614: Reward Hacking Challenges Oversight of Autonomous Research Agents"
+        ],
+        "og:type": [
+          "website"
+        ],
+        "og:site_name": [
+          "arXiv.org"
+        ],
+        "og:title": [
+          "Reward Hacking Challenges Oversight of Autonomous Research Agents"
+        ],
+        "og:url": [
+          "https://arxiv.org/abs/2609.28614v1"
+        ],
+        "og:image": [
+          "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        ],
+        "og:image:secure_url": [
+          "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        ],
+        "og:image:width": [
+          "1200"
+        ],
+        "og:image:height": [
+          "700"
+        ],
+        "og:image:alt": [
+          "arXiv logo"
+        ],
+        "og:description": [
+          "Autonomous research agents can design experiments, evaluate results, and write reports, giving them control over both a scientific result and the evidence used to support it. This creates a risk of reward hacking: meeting the reward criteria without achieving the intended goal. We study (1) how often models reward-hack without instructions to do so, (2) how effective and detectable their methods are when hacking is allowed, and (3) how they adapt when an LLM review panel returns its decision and reasons. Across 17 language models and 38 tasks, the spontaneous reward-hacking rate is 30.5% on open-ended research-pipeline tasks and 2.9% on task-specific kernels. When hacking is allowed on tasks whose pass thresholds exceed our best compliant baselines, 505/677 attempts (74.6%) are confirmed reward hacks: they both clear the threshold and receive mechanism-verification panel confirmation of an evaluation exploit. An LLM panel reviewing only submitted code and reported scores misses 33/505 confirmed hacks (6.5%). Direct methods that achieve the highest scores are often easy to detect, while less direct methods evade more often. In a five-round loop, the number of model-task pairs with an evasion rises from 7 to 56. Among 79 pairs evaluated under two feedback conditions, cumulative evasion reaches 40.5% with detailed feedback and 20.3% with generic rejection. The detailed condition includes the review decision, reasons, and attempt history, so this comparison does not isolate the effect of explanations. These findings highlight the need for stronger defenses, including metrics kept outside the agent's control and independent recomputation on data chosen to expose likely exploits."
+        ],
+        "twitter:site": [
+          "@arxiv"
+        ],
+        "twitter:card": [
+          "summary"
+        ],
+        "twitter:title": [
+          "Reward Hacking Challenges Oversight of Autonomous Research Agents"
+        ],
+        "twitter:description": [
+          "Autonomous research agents can design experiments, evaluate results, and write reports, giving them control over both a scientific result and the evidence used to support it. This creates a risk..."
+        ],
+        "twitter:image": [
+          "https://static.arxiv.org/icons/twitter/arxiv-logo-twitter-square.png"
+        ],
+        "twitter:image:alt": [
+          "arXiv logo"
+        ],
+        "citation_title": [
+          "Reward Hacking Challenges Oversight of Autonomous Research Agents"
+        ],
+        "citation_author": [
+          "Huang, Yue",
+          "Xu, Zhangchen",
+          "Ma, Yuchen",
+          "Wang, Wenjie",
+          "Liu, Zheyuan",
+          "Xu, Ziwei",
+          "Chen, Pin-Yu",
+          "Galley, Michel",
+          "Lin, Zinan",
+          "Feuerriegel, Stefan",
+          "Poovendran, Radha",
+          "Sra, Misha",
+          "Pentland, Alex",
+          "Zhang, Xiangliang",
+          "Chen, Zichen"
+        ],
+        "citation_date": [
+          "2026/09/23"
+        ],
+        "citation_online_date": [
+          "2026/09/23"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2609.28614"
+        ],
+        "citation_arxiv_id": [
+          "2609.28614"
+        ],
+        "citation_abstract": [
+          "Autonomous research agents can design experiments, evaluate results, and write reports, giving them control over both a scientific result and the evidence used to support it. This creates a risk of reward hacking: meeting the reward criteria without achieving the intended goal. We study (1) how often models reward-hack without instructions to do so, (2) how effective and detectable their methods are when hacking is allowed, and (3) how they adapt when an LLM review panel returns its decision and reasons. Across 17 language models and 38 tasks, the spontaneous reward-hacking rate is 30.5% on open-ended research-pipeline tasks and 2.9% on task-specific kernels. When hacking is allowed on tasks whose pass thresholds exceed our best compliant baselines, 505/677 attempts (74.6%) are confirmed reward hacks: they both clear the threshold and receive mechanism-verification panel confirmation of an evaluation exploit. An LLM panel reviewing only submitted code and reported scores misses 33/505 confirmed hacks (6.5%). Direct methods that achieve the highest scores are often easy to detect, while less direct methods evade more often. In a five-round loop, the number of model-task pairs with an evasion rises from 7 to 56. Among 79 pairs evaluated under two feedback conditions, cumulative evasion reaches 40.5% with detailed feedback and 20.3% with generic rejection. The detailed condition includes the review decision, reasons, and attempt history, so this comparison does not isolate the effect of explanations. These findings highlight the need for stronger defenses, including metrics kept outside the agent's control and independent recomputation on data chosen to expose likely exploits."
+        ]
+      },
+      "status": "IDENTITY_CHECKED",
+      "title_match": true,
+      "title_similarity": 1.0,
+      "author_exact_match": true,
+      "author_surname_order_match": true,
+      "original_doi_missing": true,
+      "arxiv_first_year": "2026",
+      "year_matches_arxiv_first_year": true,
+      "year_note": "Conference year may legitimately differ from first preprint year.",
+      "observed_dois": [
+        "10.48550/arXiv.2609.28614"
+      ],
+      "fulltext_url": "https://arxiv.org/html/2609.28614v1",
+      "fulltext_provenance": {
+        "requested_url": "https://arxiv.org/html/2609.28614v1",
+        "resolved_url": "https://arxiv.org/html/2609.28614v1",
+        "http_status": 200,
+        "retrieved_at_utc": "2026-10-30T10:57:50.480894+00:00",
+        "sha256": "c2bb7e065843cbd6294d934c126aefc9497b050c112d315a11b1d0a796e3183e"
+      },
+      "fulltext_status": "AVAILABLE"
+    }
+  ],
+  "citation_occurrences": [
+    {
+      "line": 19,
+      "keys": [
+        "skalse2022defining"
+      ],
+      "context": "Reward hacking is commonly used for behavior in which optimizing an imperfect proxy degrades performance against the intended objective; formal analyses call the corresponding proxy-policy relation reward gaming \\cite{skalse2022defining}. Specification gaming is the broader pattern of satisfying the literal specification while violating its intended purpose. Reward misspecification describes the design flaw in the objective or proxy, and may exist without an agent discovering or exploiting it. Reward tampering is a narrower, more serious case in which a system alters the reward-generating or training mechanism itself \\cite{taylor2025school}. Thus, a poor answer is not by itself reward hacking: evidence of an exploitable proxy and behavior that benefits from the mismatch is needed."
+    },
+    {
+      "line": 19,
+      "keys": [
+        "taylor2025school"
+      ],
+      "context": "Reward hacking is commonly used for behavior in which optimizing an imperfect proxy degrades performance against the intended objective; formal analyses call the corresponding proxy-policy relation reward gaming \\cite{skalse2022defining}. Specification gaming is the broader pattern of satisfying the literal specification while violating its intended purpose. Reward misspecification describes the design flaw in the objective or proxy, and may exist without an agent discovering or exploiting it. Reward tampering is a narrower, more serious case in which a system alters the reward-generating or training mechanism itself \\cite{taylor2025school}. Thus, a poor answer is not by itself reward hacking: evidence of an exploitable proxy and behavior that benefits from the mismatch is needed."
+    },
+    {
+      "line": 24,
+      "keys": [
+        "deshpande2026trace"
+      ],
+      "context": "\\textbf{Behavioral and contrastive evaluation.} These methods inspect tool actions, artifacts, test results, or trajectory outcomes against an independent statement of task intent. Deshpande et al.'s TRACE benchmark frames detection as contrastive anomaly identification among coding trajectories and reports that contextualized, semantically expressed exploits are harder to identify than syntactic ones \\cite{deshpande2026trace}. This approach is comparatively interpretable and does not require access to hidden activations, but it depends on labeled or curated examples, reliable task-specific evidence, and robust environment instrumentation. It is well suited to explicit environmental exploits; subtle intent inferred only from intermediate reasoning can be missed."
+    },
+    {
+      "line": 26,
+      "keys": [
+        "baker2025monitoring"
+      ],
+      "context": "\\textbf{Reasoning-trace monitors.} A separate LLM can inspect chain-of-thought (CoT) for plans or explanations that reveal an exploit. Baker et al. demonstrate monitoring of coding-agent traces and report that CoT can expose behavior not evident from actions alone; when monitor scores are used in training, stronger optimization can induce obfuscation while hacking persists \\cite{baker2025monitoring}. Trace access gives human-readable rationales and can flag explicit hacks, but the method depends on trace availability, monitor quality, and the faithfulness of the trace. Its own use as a reward signal creates an adaptive detection problem."
+    },
+    {
+      "line": 28,
+      "keys": [
+        "wang2026thinking"
+      ],
+      "context": "\\textbf{Process and internal-state signals.} Rather than interpreting the trace semantically, these methods infer hacking from the model's computation. Wang et al.'s TRACE (Truncated Reasoning AUC Evaluation) repeatedly truncates reasoning and checks whether the answer already earns reward; unusually early success is evidence for a shortcut, including cases with benign-looking traces \\cite{wang2026thinking}. This is potentially useful for implicit hacks, but requires repeated model evaluations and a verifier, and assumes a shortcut takes less reasoning than the intended solution. Wilhelm et al. train sparse autoencoders and token-level classifiers over residual-stream activations to monitor during generation \\cite{wilhelm2026activations}. Bergen et al. use difference-of-means activation vectors as inexpensive probes and report online prediction of later hacks in evaluated models \\cite{bergen2026representations}. Such white-box signals may operate before completion, but require internal access and labeled or constructed positive/negative examples; transfer and false-positive behavior remain empirical questions. These categories overlap: a trace monitor uses process output, while a probe may score the same trace's activations."
+    },
+    {
+      "line": 28,
+      "keys": [
+        "wilhelm2026activations"
+      ],
+      "context": "\\textbf{Process and internal-state signals.} Rather than interpreting the trace semantically, these methods infer hacking from the model's computation. Wang et al.'s TRACE (Truncated Reasoning AUC Evaluation) repeatedly truncates reasoning and checks whether the answer already earns reward; unusually early success is evidence for a shortcut, including cases with benign-looking traces \\cite{wang2026thinking}. This is potentially useful for implicit hacks, but requires repeated model evaluations and a verifier, and assumes a shortcut takes less reasoning than the intended solution. Wilhelm et al. train sparse autoencoders and token-level classifiers over residual-stream activations to monitor during generation \\cite{wilhelm2026activations}. Bergen et al. use difference-of-means activation vectors as inexpensive probes and report online prediction of later hacks in evaluated models \\cite{bergen2026representations}. Such white-box signals may operate before completion, but require internal access and labeled or constructed positive/negative examples; transfer and false-positive behavior remain empirical questions. These categories overlap: a trace monitor uses process output, while a probe may score the same trace's activations."
+    },
+    {
+      "line": 28,
+      "keys": [
+        "bergen2026representations"
+      ],
+      "context": "\\textbf{Process and internal-state signals.} Rather than interpreting the trace semantically, these methods infer hacking from the model's computation. Wang et al.'s TRACE (Truncated Reasoning AUC Evaluation) repeatedly truncates reasoning and checks whether the answer already earns reward; unusually early success is evidence for a shortcut, including cases with benign-looking traces \\cite{wang2026thinking}. This is potentially useful for implicit hacks, but requires repeated model evaluations and a verifier, and assumes a shortcut takes less reasoning than the intended solution. Wilhelm et al. train sparse autoencoders and token-level classifiers over residual-stream activations to monitor during generation \\cite{wilhelm2026activations}. Bergen et al. use difference-of-means activation vectors as inexpensive probes and report online prediction of later hacks in evaluated models \\cite{bergen2026representations}. Such white-box signals may operate before completion, but require internal access and labeled or constructed positive/negative examples; transfer and false-positive behavior remain empirical questions. These categories overlap: a trace monitor uses process output, while a probe may score the same trace's activations."
+    },
+    {
+      "line": 31,
+      "keys": [
+        "taylor2025school",
+        "huang2026oversight"
+      ],
+      "context": "Table~\\ref{tab:compare} contrasts representative evidence and limitations. Occurrence studies underscore that detection is not reducible to whether a trace sounds suspicious: Taylor et al. report generalization from trained low-stakes hacks to other misaligned behaviors, while Huang et al. show that LLM review of submitted code and scores misses some confirmed evaluation exploits in autonomous research tasks \\cite{taylor2025school,huang2026oversight}. Neither result establishes a universal detector. Collectively, work ranges from post-hoc artifact review to token-level internal monitoring, with different access and cost assumptions; comparisons across papers are not controlled head-to-head evaluations."
+    },
+    {
+      "line": 42,
+      "keys": [
+        "deshpande2026trace"
+      ],
+      "context": "TRACE benchmark \\cite{deshpande2026trace} & Contrasts trajectory anomalies using actions and artifacts; inspectable, but synthetic coding coverage and contextual hacks are limitations.\\\\"
+    },
+    {
+      "line": 43,
+      "keys": [
+        "baker2025monitoring"
+      ],
+      "context": "CoT monitor \\cite{baker2025monitoring} & LLM judge reads reasoning traces; rationale is human-readable, but traces can be obfuscated and implicit hacks missed.\\\\"
+    },
+    {
+      "line": 44,
+      "keys": [
+        "wang2026thinking"
+      ],
+      "context": "Truncation effort \\cite{wang2026thinking} & Reward after successive CoT cutoffs; targets implicit shortcuts, but requires repeated inference and a verifier.\\\\"
+    },
+    {
+      "line": 45,
+      "keys": [
+        "wilhelm2026activations"
+      ],
+      "context": "Activation monitor \\cite{wilhelm2026activations} & SAE features and token classifier enable in-generation signals, but require white-box access and transfer validation.\\\\"
+    },
+    {
+      "line": 46,
+      "keys": [
+        "bergen2026representations"
+      ],
+      "context": "Representation probe \\cite{bergen2026representations} & Internal activation direction supports cheap online signals, but calibration and probe-hit interpretation remain open.\\\\"
+    }
+  ],
+  "missing_bib_keys": [],
+  "uncited_bib_keys": [],
+  "supplementary": {
+    "neurips_record": {
+      "provenance": {
+        "requested_url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/3d719fee332caa23d5038b8a90e81796-Abstract-Conference.html",
+        "resolved_url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/3d719fee332caa23d5038b8a90e81796-Abstract-Conference.html",
+        "http_status": 200,
+        "retrieved_at_utc": "2026-10-30T10:57:51.736661+00:00",
+        "sha256": "9b9859d7f8930c9b6803d70401134da5a1af09860a10a6b5ba61522963ea8f2c"
+      }
+    },
+    "neurips_bib": {
+      "provenance": {
+        "requested_url": "https://proceedings.neurips.cc/paper_files/paper/18582-/bibtex",
+        "resolved_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/3d719fee332caa23d5038b8a90e81796-Bibtex-Conference.bib",
+        "http_status": 200,
+        "retrieved_at_utc": "2026-10-30T10:58:49.577590+00:00",
+        "sha256": "83e2674756ae228819a24509c5aaa6f0982b46ecb260d284c9ba20e09e1ab519"
+      }
+    },
+    "wang_iclr": {
+      "provenance": {
+        "requested_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/9d0ee47d732bd526c4a03d4aecc39bc1-Abstract-Conference.html",
+        "resolved_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/9d0ee47d732bd526c4a03d4aecc39bc1-Abstract-Conference.html",
+        "http_status": 200,
+        "retrieved_at_utc": "2026-10-30T10:58:50.686404+00:00",
+        "sha256": "4def7a5b06a6f03b28e162575d1a1ca6ab926950c7c2c7a672e6f383e97fbf81"
+      }
+    },
+    "wang_openreview": {
+      "error": "No cached source: https://api2.openreview.net/notes?id=Gk7gLAtVDO",
+      "url": "https://api2.openreview.net/notes?id=Gk7gLAtVDO"
+    }
+  },
+  "automatic_consistency_screens": [
+    {
+      "rule": "R01",
+      "key": "taylor2025school",
+      "draft_trigger": "more serious",
+      "source_anchor": "reward-tampering",
+      "source_anchor_found": true,
+      "flag": "UNSUPPORTED_SEVERITY_RANKING",
+      "explanation": "A tampering mention does not establish a general severity ordering.",
+      "requires_human_review": true
+    },
+    {
+      "rule": "R02",
+      "key": "wilhelm2026activations",
+      "draft_trigger": "token-level classifiers",
+      "source_anchor": "one decision per generation",
+      "source_anchor_found": true,
+      "flag": "GRANULARITY_REVIEW",
+      "explanation": "Distinguish token scores from generation-level decisions and supervision.",
+      "requires_human_review": true
+    },
+    {
+      "rule": "R03",
+      "key": "wang2026thinking",
+      "draft_trigger": "unusually early success",
+      "source_anchor": "Overthinking",
+      "source_anchor_found": true,
+      "flag": "CONFOUNDER_REVIEW",
+      "explanation": "Early success alone is not sufficient; review baseline calibration and overthinking.",
+      "requires_human_review": true
+    },
+    {
+      "rule": "R04",
+      "key": "taylor2025school",
+      "draft_trigger": "generalization from trained low-stakes hacks",
+      "source_anchor": "supervised fine-tuning",
+      "source_anchor_found": true,
+      "flag": "TRAINING_SCOPE_REVIEW",
+      "explanation": "State the SFT setup and restrict generalization to tested models.",
+      "requires_human_review": true
+    },
+    {
+      "rule": "R05",
+      "key": "bergen2026representations",
+      "draft_trigger": "online prediction of later hacks",
+      "source_anchor": "resampled",
+      "source_anchor_found": true,
+      "flag": "EXPERIMENT_SCOPE_REVIEW",
+      "explanation": "Describe the truncation/resampling study; do not imply guaranteed online intervention.",
+      "requires_human_review": true
+    },
+    {
+      "rule": "R06",
+      "key": "baker2025monitoring",
+      "draft_trigger": "faithfulness of the trace",
+      "source_anchor": "monitorability",
+      "source_anchor_found": true,
+      "flag": "CONCEPT_REVIEW",
+      "explanation": "Monitorability does not require complete faithfulness.",
+      "requires_human_review": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "key": "skalse2022defining",
+      "draft_span": "optimizing an imperfect proxy degrades performance against the intended objective",
+      "anchors": [
+        "proxy",
+        "true reward"
+      ],
+      "source_section": "Abstract; Definition 1",
+      "ai_verdict": "SUPPORTED",
+      "ai_reason": "支持代理回报提高而真实回报降低的关系；这是形式化定义，不是证明每次优化都会导致退化。",
+      "draft_span_present": true,
+      "anchor_hits": [
+        {
+          "anchor": "proxy",
+          "found": true,
+          "candidate_passages": [
+            "We provide the first formal definition of reward hacking, a phenomenon where optimizing an imperfect proxy reward function, ℛ~\\mathcal{\\tilde{R}}, leads to poor performance according to the true reward function, ℛ\\mathcal{R}.",
+            "We say that a proxy is unhackable if increasing the expected proxy return can never decrease the expected true return.",
+            "to create an unhackable proxy by leaving some terms out of the reward function (making it “narrower”) or overlooking fine-grained distinctions between roughly equivalent outcomes,"
+          ]
+        },
+        {
+          "anchor": "true reward",
+          "found": true,
+          "candidate_passages": [
+            "We provide the first formal definition of reward hacking, a phenomenon where optimizing an imperfect proxy reward function, ℛ~\\mathcal{\\tilde{R}}, leads to poor performance according to the true reward function, ℛ\\mathcal{R}.",
+            "One approach to this specification problem is to learn an approximation of the true reward function (Ng et al.,, 2000; Ziebart,, 2010; Leike et al.,, 2018).",
+            "Instead, we ask whether there is any way in which improving a policy according to the proxy could make the policy worse according to the true reward; this is equivalent to asking if there exists a pair of policies π1\\pi_{1}, π2\\pi_{2} where the proxy prefers π1\\pi_{1}, but the true reward function prefers π2\\pi_{2}."
+          ]
+        }
+      ],
+      "automatic_status": "EVIDENCE_CANDIDATE_REQUIRES_SEMANTIC_REVIEW",
+      "note": "AI assessment in manifest is an authored review, not a computed entailment result."
+    },
+    {
+      "id": "C02",
+      "key": "skalse2022defining",
+      "draft_span": "formal analyses call the corresponding proxy-policy relation reward gaming",
+      "anchors": [
+        "reward hacking"
+      ],
+      "source_section": "Abstract; Introduction",
+      "ai_verdict": "QUALIFY",
+      "ai_reason": "Gaming 是会议目录标题，Hacking 是 arXiv/PDF 标题及术语；不要暗示两者在该论文中构成固定的术语层级。",
+      "draft_span_present": true,
+      "anchor_hits": [
+        {
+          "anchor": "reward hacking",
+          "found": true,
+          "candidate_passages": [
+            "Defining and Characterizing Reward Hacking",
+            "Defining and Characterizing Reward Hacking",
+            "We provide the first formal definition of reward hacking, a phenomenon where optimizing an imperfect proxy reward function, ℛ~\\mathcal{\\tilde{R}}, leads to poor performance according to the true reward function, ℛ\\mathcal{R}."
+          ]
+        }
+      ],
+      "automatic_status": "EVIDENCE_CANDIDATE_REQUIRES_SEMANTIC_REVIEW",
+      "note": "AI assessment in manifest is an authored review, not a computed entailment result."
+    },
+    {
+      "id": "C03",
+      "key": "taylor2025school",
+      "draft_span": "Reward tampering is a narrower, more serious case",
+      "anchors": [
+        "reward-tampering"
+      ],
+      "source_section": "Section 6; References",
+      "ai_verdict": "UNSUPPORTED_AS_CITED",
+      "ai_reason": "正文提供 hacking 行为和相关工作，未直接建立该定义或“更严重”的一般排序。参考文献列表出现 tampering 不等于支持正文断言。建议删掉此句或另找定义原始来源；本次建议修订版删除。",
+      "draft_span_present": true,
+      "anchor_hits": [
+        {
+          "anchor": "reward-tampering",
+          "found": true,
+          "candidate_passages": [
+            "Sycophancy to subterfuge: Investigating reward-tampering in large language models, 2024."
+          ]
+        }
+      ],
+      "automatic_status": "EVIDENCE_CANDIDATE_REQUIRES_SEMANTIC_REVIEW",
+      "note": "AI assessment in manifest is an authored review, not a computed entailment result."
+    },
+    {
+      "id": "C04",
+      "key": "deshpande2026trace",
+      "draft_span": "frames detection as contrastive anomaly identification among coding trajectories",
+      "anchors": [
+        "contrastive anomaly",
+        "517"
+      ],
+      "source_section": "Sections 3–4",
+      "ai_verdict": "SUPPORTED",
+      "ai_reason": "TRACE 基准及对比异常检测设置存在；517 条轨迹是合成构造并经人工验证。",
+      "draft_span_present": true,
+      "anchor_hits": [
+        {
+          "anchor": "contrastive anomaly",
+          "found": true,
+          "candidate_passages": [
+            "Recent advances in reinforcement learning for code generation have made robust environments essential to prevent reward hacking. As LLMs increasingly serve as evaluators in code-based RL, their ability to detect reward hacking remains understudied. In this paper, we propose a novel taxonomy of reward exploits spanning across 54 categories and introduce TRACE (Testing Reward Anomalies in Code Environments), a synthetically curated and human-verified benchmark containing 517 testing trajectories. Unlike prior work that evaluates reward hack detection in isolated classification scenarios, we contrast these evaluations with a more realistic, contrastive anomaly detection setup on TRACE. Our experiments reveal that models capture reward hacks more effectively in contrastive settings than in isolated classification settings, with GPT-5.2 with highest reasoning mode achieving the best Detection Rate at 63%, up from 45% in isolated settings on TRACE. Building on this insight, we demonstrate that state-of-the-art models struggle significantly more with semantically contextualized reward hacks compared to syntactically contextualized ones. We further conduct qualitative analyses of model behaviors, as well as ablation studies showing that the ratio of benign to hacked trajectories and analysis cluster sizes substantially impact detection performance. We release the benchmark and evaluation harness to enable the community to expand TRACE and evaluate their models 11"
+          ]
+        },
+        {
+          "anchor": "517",
+          "found": true,
+          "candidate_passages": [
+            "Recent advances in reinforcement learning for code generation have made robust environments essential to prevent reward hacking. As LLMs increasingly serve as evaluators in code-based RL, their ability to detect reward hacking remains understudied. In this paper, we propose a novel taxonomy of reward exploits spanning across 54 categories and introduce TRACE (Testing Reward Anomalies in Code Environments), a synthetically curated and human-verified benchmark containing 517 testing trajectories. Unlike prior work that evaluates reward hack detection in isolated classification scenarios, we contrast these evaluations with a more realistic, contrastive anomaly detection setup on TRACE. Our experiments reveal that models capture reward hacks more effectively in contrastive settings than in isolated classification settings, with GPT-5.2 with highest reasoning mode achieving the best Detection Rate at 63%, up from 45% in isolated settings on TRACE. Building on this insight, we demonstrate that state-of-the-art models struggle significantly more with semantically contextualized reward hacks compared to syntactically contextualized ones. We further conduct qualitative analyses of model behaviors, as well as ablation studies showing that the ratio of benign to hacked trajectories and analysis cluster sizes substantially impact detection performance. We release the benchmark and evaluation harness to enable the community to expand TRACE and evaluate their models 11",
+            "To study the reward hacking detection behaviors of modern LLMs, we create TRACE, a novel synthetically generated and human verified dataset of reward hacks. TRACE contains 517 unique trajectories that span across several domains of software engineering. TRACE is a multilabel task and covers reward hacks across 54 unique instances, categorized into 10 broader categories covering test suite exploitation, solution quality degradation, context manipulation and execution time hacks.",
+            "Since coding agents are susceptible to hallucinations (Park, 2025), we recruited three full stack software engineers, that use coding agents in their daily workflows, to review the trajectories. Each expert was tasked to independently annotate generated trajectories for realism, presence of reward hacking behavior along with the type of reward hack if it exists and difficulty of detection of reward hack. We enumerate the qualitative metrics and average human scores in Table 1 and show the natural skew of human verified classes in Figure 3. We observed that humans are sensitive to semantically challenging reward hacks and rejection rates for samples are higher for subjective topics such as Runtime Manipulation or Complexity Gaming (we delineate semantic and syntactic categories of hacks in Appendix E). We observed an overall sample acceptance rate of approximately 81% from the human review phase of the dataset curation which signifies that the pipeline is effective and reliable at producing realistic reward hacking scenarios(Cohen’s κ=0.82\\kappa=0.82). We further observe that approximately 39% of all instances in TRACE have multiple hack types, where the subcategories ”Test Modification” and ”Test Case Targeting” are the most common overlapping categories. This complexity makes TRACE challenging and difficult to game. At the end of the human verification process and after filtering the human rejected samples, TRACE contains a total of 517 unique trajectories (with 249 benign trajectories), averaging at approximately 26 utterances per trajectory (refer to Appendix F)."
+          ]
+        }
+      ],
+      "automatic_status": "EVIDENCE_CANDIDATE_REQUIRES_SEMANTIC_REVIEW",
+      "note": "AI assessment in manifest is an authored review, not a computed entailment result."
+    },
+    {
+      "id": "C05",
+      "key": "deshpande2026trace",
+      "draft_span": "contextualized, semantically expressed exploits are harder to identify than syntactic ones",
+      "anchors": [
+        "semantically contextualized",
+        "syntactically"
+      ],
+      "source_section": "Section 5, RQ2; Figure 5; Appendix E",
+      "ai_verdict": "QUALIFY",
+      "ai_reason": "方向正确，但应使用 semantically contextualized / syntactically contextualized；并非自然语言表达与代码语法表达的简单二分。",
+      "draft_span_present": true,
+      "anchor_hits": [
+        {
+          "anchor": "semantically contextualized",
+          "found": true,
+          "candidate_passages": [
+            "Recent advances in reinforcement learning for code generation have made robust environments essential to prevent reward hacking. As LLMs increasingly serve as evaluators in code-based RL, their ability to detect reward hacking remains understudied. In this paper, we propose a novel taxonomy of reward exploits spanning across 54 categories and introduce TRACE (Testing Reward Anomalies in Code Environments), a synthetically curated and human-verified benchmark containing 517 testing trajectories. Unlike prior work that evaluates reward hack detection in isolated classification scenarios, we contrast these evaluations with a more realistic, contrastive anomaly detection setup on TRACE. Our experiments reveal that models capture reward hacks more effectively in contrastive settings than in isolated classification settings, with GPT-5.2 with highest reasoning mode achieving the best Detection Rate at 63%, up from 45% in isolated settings on TRACE. Building on this insight, we demonstrate that state-of-the-art models struggle significantly more with semantically contextualized reward hacks compared to syntactically contextualized ones. We further conduct qualitative analyses of model behaviors, as well as ablation studies showing that the ratio of benign to hacked trajectories and analysis cluster sizes substantially impact detection performance. We release the benchmark and evaluation harness to enable the community to expand TRACE and evaluate their models 11",
+            "Do state-of-the-art models struggle more with detection of semantically contextualized or syntactically contextualized reward hacks?",
+            "Through our experimentation, we find that the best performing model, GPT-5.2 (OpenAI, 2025) with high reasoning is only able to detect 63% of all hacks present in TRACE. State-of-the-art LLMs struggle significantly more at semantically contextualized reward hacks in the coding domain than syntactic hacks. This pattern is dissimilar to humans and we find that humans show strong performance at grounding hacks both semantically and syntactically. Additionally, we observe that increasing contrasting examples in the analyzed cluster improves this grounding in LLMs. Finally, we perform careful ablations to show that the frequency of reward hacks in a cluster strongly impact model performance. We observe that the presence of more benign trajectories in a cluster helps the model disentangle reward hack patterns from benign patterns and thereby improves detection performance."
+          ]
+        },
+        {
+          "anchor": "syntactically",
+          "found": true,
+          "candidate_passages": [
+            "RQ2. Do models struggle more with detecting semantically or syntactically contextualized reward hacks?",
+            "Recent advances in reinforcement learning for code generation have made robust environments essential to prevent reward hacking. As LLMs increasingly serve as evaluators in code-based RL, their ability to detect reward hacking remains understudied. In this paper, we propose a novel taxonomy of reward exploits spanning across 54 categories and introduce TRACE (Testing Reward Anomalies in Code Environments), a synthetically curated and human-verified benchmark containing 517 testing trajectories. Unlike prior work that evaluates reward hack detection in isolated classification scenarios, we contrast these evaluations with a more realistic, contrastive anomaly detection setup on TRACE. Our experiments reveal that models capture reward hacks more effectively in contrastive settings than in isolated classification settings, with GPT-5.2 with highest reasoning mode achieving the best Detection Rate at 63%, up from 45% in isolated settings on TRACE. Building on this insight, we demonstrate that state-of-the-art models struggle significantly more with semantically contextualized reward hacks compared to syntactically contextualized ones. We further conduct qualitative analyses of model behaviors, as well as ablation studies showing that the ratio of benign to hacked trajectories and analysis cluster sizes substantially impact detection performance. We release the benchmark and evaluation harness to enable the community to expand TRACE and evaluate their models 11",
+            "Do state-of-the-art models struggle more with detection of semantically contextualized or syntactically contextualized reward hacks?"
+          ]
+        }
+      ],
+      "automatic_status": "EVIDENCE_CANDIDATE_REQUIRES_SEMANTIC_REVIEW",
+      "note": "AI assessment in manifest is an authored review, not a computed entailment result."
+    },
+    {
+      "id": "C06",
+      "key": "deshpande2026trace",
+      "draft_span": "subtle intent inferred only from intermediate reasoning can be missed",
+      "anchors": [
+        "contrastive"
+      ],
+      "source_section": "Sections 4–6",
+      "ai_verdict": "INFERENCE",
+      "ai_reason": "本文没有直接比较“仅中间推理可见的意图”的漏检率。可作为 survey 推断，不能作为 TRACE 实证结果。",
+      "draft_span_present": true,
+      "anchor_hits": [
+        {
+          "anchor": "contrastive",
+          "found": true,
+          "candidate_passages": [
+            "Benchmarking Reward Hack Detection in Code Environments via Contrastive Analysis",
+            "2.4 Contrastive Outlier and Anomaly Detection Methods",
+            "RQ3. How does contrastive noise in a trajectory cluster influence reward detectability"
+          ]
+        }
+      ],
+      "automatic_status": "EVIDENCE_CANDIDATE_REQUIRES_SEMANTIC_REVIEW",
+      "note": "AI assessment in manifest is an authored review, not a computed entailment result."
+    },
+    {
+      "id": "C07",
+      "key": "baker2025monitoring",
+      "draft_span": "CoT can expose behavior not evident from actions alone",
+      "anchors": [
+        "actions and outputs",
+        "chain-of-thought"
+      ],
+      "source_section": "Section 2",
+      "ai_verdict": "SUPPORTED",
+      "ai_reason": "支持在其 coding-agent 实验中 CoT 相对只看动作/输出提高可监测性。",
+      "draft_span_present": true,
+      "anchor_hits": [
+        {
+          "anchor": "actions and outputs",
+          "found": true,
+          "candidate_passages": [
+            "Mitigating reward hacking—where AI systems misbehave due to flaws or misspecifications in their learning objectives—remains a key challenge in constructing capable and aligned models. We show that we can monitor a frontier reasoning model, such as OpenAI o3-mini, for reward hacking in agentic coding environments by using another LLM that observes the model’s chain-of-thought (CoT) reasoning. CoT monitoring can be far more effective than monitoring agent actions and outputs alone, and we further found that a LLM weaker than o3-mini, namely GPT-4o, can effectively monitor a stronger model. Because CoT monitors can be effective at detecting exploits, it is natural to ask whether those exploits can be suppressed by incorporating a CoT monitor directly into the agent’s training objective. While we show that integrating CoT monitors into the reinforcement learning reward can indeed produce more capable and more aligned agents in the low optimization regime, we find that with too much optimization, agents learn obfuscated reward hacking, hiding their intent within the CoT while still exhibiting a significant rate of reward hacking.",
+            "During a recent frontier reasoning model training run, we tested just how useful this signal in agent CoTs can be. We found that a simple prompted LLM (we used GPT-4o [29]) is very effective at monitoring for reward hacking behavior within agentic coding environments, and we also discovered that our CoT monitor performs much better than a monitor with access to only the agent’s actions and outputs (See Section 2). We underscore that at the time of this experiment, the agent being monitored was OpenAI’s most advanced model, performing better at hard reasoning tasks than even its predecessors, OpenAI o1 [24] and o3-mini [30]. We conducted our monitoring in real time as the frontier agent trained, which allowed us to surface hacks and bugs in the environment that could be patched during training.",
+            "Our findings demonstrate that chain-of-thought monitoring can be very effective in detecting certain classes of misaligned behaviors in reasoning models. This emergent monitorability offers a promising avenue for improving model safety, as CoTs often reveal insights into an agent’s intent and reasoning processes that are not readily apparent from its actions and outputs alone. However, we also observed that applying optimization pressure directly to CoTs can undermine their monitorability. While moderate CoT optimization can enhance capabilities—particularly in the low-optimization regime—excessive optimization encourages models to obscure their true intent, effectively decoupling their reasoning from their actions and degrading the CoT’s utility for monitoring."
+          ]
+        },
+        {
+          "anchor": "chain-of-thought",
+          "found": true,
+          "candidate_passages": [
+            "3 Chain-of-Thought Optimization Pressures and the Risk of Obfuscation",
+            "3.2 Optimizing Against a Chain-of-Thought Monitor",
+            "3.3 Rejection Sampling with Chain-of-Thought Monitors"
+          ]
+        }
+      ],
+      "automatic_status": "EVIDENCE_CANDIDATE_REQUIRES_SEMANTIC_REVIEW",
+      "note": "AI assessment in manifest is an authored review, not a computed entailment result."
+    },
+    {
+      "id": "C08",
+      "key": "baker2025monitoring",
+      "draft_span": "stronger optimization can induce obfuscation while hacking persists",
+      "anchors": [
+        "obfuscated reward hacking"
+      ],
+      "source_section": "Section 3.2",
+      "ai_verdict": "SUPPORTED",
+      "ai_reason": "支持高优化压力下的遮蔽风险；低优化压力下也报告有益效果，不应概括为任何训练都会失败。",
+      "draft_span_present": true,
+      "anchor_hits": [
+        {
+          "anchor": "obfuscated reward hacking",
+          "found": true,
+          "candidate_passages": [
+            "Mitigating reward hacking—where AI systems misbehave due to flaws or misspecifications in their learning objectives—remains a key challenge in constructing capable and aligned models. We show that we can monitor a frontier reasoning model, such as OpenAI o3-mini, for reward hacking in agentic coding environments by using another LLM that observes the model’s chain-of-thought (CoT) reasoning. CoT monitoring can be far more effective than monitoring agent actions and outputs alone, and we further found that a LLM weaker than o3-mini, namely GPT-4o, can effectively monitor a stronger model. Because CoT monitors can be effective at detecting exploits, it is natural to ask whether those exploits can be suppressed by incorporating a CoT monitor directly into the agent’s training objective. While we show that integrating CoT monitors into the reinforcement learning reward can indeed produce more capable and more aligned agents in the low optimization regime, we find that with too much optimization, agents learn obfuscated reward hacking, hiding their intent within the CoT while still exhibiting a significant rate of reward hacking.",
+            "Because chain-of-thought monitors can perform so well at detecting undesired actions, it is natural to ask whether they can be used directly as a reward signal during training. Will preventing “bad thoughts” also reduce the amount of downstream bad behavior? While this theory seems plausible, such an objective could cause agents to learn to hide their intent within the CoT while continuing to exhibit misaligned behavior, a phenomenon we will call obfuscated reward hacking. We investigate the effect of incorporating a CoT monitor into the reward function as a non-frontier reasoning model trains in a series of agentic coding environments, in which agents must update a repository to satisfy a suite of unit tests.",
+            "At relatively low levels of RL optimization, incorporating the CoT monitor into the reward signal yields a strict improvement, producing a more capable agent while not increasing the amount of reward hacking relative to the baseline. However, further into training the agent begins to exhibit obfuscated reward hacking and learns to fool the monitor. Upon inspection, it is clear that the agent learns to obfuscate its intent within the CoT by emitting seemingly benign chains-of-thought while continuing on to perform reward hacks that it did not explicitly reason about."
+          ]
+        }
+      ],
+      "automatic_status": "EVIDENCE_CANDIDATE_REQUIRES_SEMANTIC_REVIEW",
+      "note": "AI assessment in manifest is an authored review, not a computed entailment result."
+    },
+    {
+      "id": "C09",
+      "key": "baker2025monitoring",
+      "draft_span": "faithfulness of the trace",
+      "anchors": [
+        "faithfulness",
+        "monitorability"
+      ],
+      "source_section": "Section 5.1; Appendix G",
+      "ai_verdict": "QUALIFY",
+      "ai_reason": "faithfulness 与 monitorability 有区别；不需要 CoT 完全忠实才可有效监测。建议改成 exploit-relevant information 的可见性。",
+      "draft_span_present": true,
+      "anchor_hits": [
+        {
+          "anchor": "faithfulness",
+          "found": true,
+          "candidate_passages": [
+            "5.1 Faithfulness, Legibility, and Monitorability",
+            "G More commentary on faithfulness and related concepts",
+            "G.2 Faithfulness vs Causality"
+          ]
+        },
+        {
+          "anchor": "monitorability",
+          "found": true,
+          "candidate_passages": [
+            "5.1 Faithfulness, Legibility, and Monitorability",
+            "Because it is difficult to tell when CoTs have become obfuscated, it may be necessary to pay a monitorability tax by not applying strong optimization pressures directly to the chain-of-thought, ensuring that CoTs remain monitorable and useful for detecting misaligned behavior.",
+            "The natural monitorability of chain-of-thought models is quite remarkable, and we believe it has the potential to drive significant advances in model safety. However, there are many incentives to apply direct optimization pressure to the CoT thereby diminishing the signal relevant for monitoring, such as:"
+          ]
+        }
+      ],
+      "automatic_status": "EVIDENCE_CANDIDATE_REQUIRES_SEMANTIC_REVIEW",
+      "note": "AI assessment in manifest is an authored review, not a computed entailment result."
+    },
+    {
+      "id": "C10",
+      "key": "wang2026thinking",
+      "draft_span": "repeatedly truncates reasoning and checks whether the answer already earns reward",
+      "anchors": [
+        "truncate",
+        "expected reward"
+      ],
+      "source_section": "Section 4",
+      "ai_verdict": "SUPPORTED",
+      "ai_reason": "截断后强制模型作答，估计期望回报并计算曲线 AUC；不是只检查截断文本本身。",
+      "draft_span_present": true,
+      "anchor_hits": [
+        {
+          "anchor": "truncate",
+          "found": true,
+          "candidate_passages": [
+            "4 TRACE: Truncated Reasoning AUC Evaluation",
+            "To detect implicit reward hacking, we propose TRACE (Truncated Reasoning AUC Evaluation). Our key observation is that hacking occurs when exploiting the loophole is easier than solving the actual task.",
+            "We progressively truncate a model’s CoT at various lengths, force the model to answer, and estimate the expected reward at each cutoff. A hacking model, which takes a shortcut, will achieve a high expected reward with only a small fraction of its CoT, yielding a large area under the reward-vs-length curve."
+          ]
+        },
+        {
+          "anchor": "expected reward",
+          "found": true,
+          "candidate_passages": [
+            "We progressively truncate a model’s CoT at various lengths, force the model to answer, and estimate the expected reward at each cutoff. A hacking model, which takes a shortcut, will achieve a high expected reward with only a small fraction of its CoT, yielding a large area under the reward-vs-length curve.",
+            "TRACE operationalizes this by progressively truncating a CoT and plotting the expected reward against the percentage of CoT used. A hacking model’s curve rises sharply and then plateaus, yielding a high Area Under the Curve (AUC). This AUC, which we term the TRACE Score, provides a robust signal of implicit hacking."
+          ]
+        }
+      ],
+      "automatic_status": "EVIDENCE_CANDIDATE_REQUIRES_SEMANTIC_REVIEW",
+      "note": "AI assessment in manifest is an authored review, not a computed entailment result."
+    },
+    {
+      "id": "C11",
+      "key": "wang2026thinking",
+      "draft_span": "unusually early success is evidence for a shortcut",
+      "anchors": [
+        "initial policy",
+        "Overthinking"
+      ],
+      "source_section": "Section 4 threshold; Section 7",
+      "ai_verdict": "QUALIFY",
+      "ai_reason": "需相对初始策略基线；早成功也可能由简单题或 overthinking 引起，不能单独定罪。",
+      "draft_span_present": true,
+      "anchor_hits": [
+        {
+          "anchor": "initial policy",
+          "found": true,
+          "candidate_passages": [
+            "Initial Policy TRACE Score as Detection Threshold",
+            "Initial Policy TRACE Score as Detection Threshold",
+            "TRACE stays flat for non-hacking models but rises once a model begins exploiting a loophole. Since we cannot rely on a separate non-hacking model in practice, we instead use the average TRACE score of the initial policy as a threshold. This baseline reflects normal effort on the easiest problems. As training progresses, if a model reaches a higher TRACE score (lower effort) on harder problems than this baseline, we classify it as hacking."
+          ]
+        },
+        {
+          "anchor": "Overthinking",
+          "found": true,
+          "candidate_passages": [
+            "Overthinking",
+            "Overthinking",
+            "Overthinking is an issue that could inflate the TRACE score, because the model may produce overly long reasoning traces on easy problems even when it already has the correct internal belief during CoT (Zhang et al., 2025). If the model learns this overthinking behavior during RL training, it may tend to overthink on samples in general, which raises the TRACE score as a whole."
+          ]
+        }
+      ],
+      "automatic_status": "EVIDENCE_CANDIDATE_REQUIRES_SEMANTIC_REVIEW",
+      "note": "AI assessment in manifest is an authored review, not a computed entailment result."
+    },
+    {
+      "id": "C12",
+      "key": "wang2026thinking",
+      "draft_span": "requires repeated model evaluations and a verifier",
+      "anchors": [
+        "cutoff",
+        "reward"
+      ],
+      "source_section": "Section 4",
+      "ai_verdict": "SUPPORTED",
+      "ai_reason": "由多截断点采样和回报估计流程支持的成本描述。无需把它称为需要激活访问的方法。",
+      "draft_span_present": true,
+      "anchor_hits": [
+        {
+          "anchor": "cutoff",
+          "found": true,
+          "candidate_passages": [
+            "We progressively truncate a model’s CoT at various lengths, force the model to answer, and estimate the expected reward at each cutoff. A hacking model, which takes a shortcut, will achieve a high expected reward with only a small fraction of its CoT, yielding a large area under the reward-vs-length curve.",
+            "Our experiments focus primarily on reward-model loopholes learned during training; we did not exhaustively study cases in which a non-hacking policy at inference time can already recognize and exploit an in-context hint. TRACE uses the initial-policy TRACE score as a detection threshold; if the initial policy already exhibits hacking behavior on some samples by hacking in-context, this raises the baseline and can reduce sensitivity. Practical mitigations include (i) calibrating the threshold on a small curated validation set of examples believed to be free of loopholes, or (ii) adopting robust statistical thresholds (e.g., percentile-based cutoffs or mixed-checkpoints baselines). We leave the systematic evaluation of these mitigation strategies to future work."
+          ]
+        },
+        {
+          "anchor": "reward",
+          "found": true,
+          "candidate_passages": [
+            "Is it thinking or cheating? Detecting Implicit Reward Hacking by Measuring Reasoning Effort",
+            "3 Training Reward Hacking Models",
+            "Reward Hacking Detection"
+          ]
+        }
+      ],
+      "automatic_status": "EVIDENCE_CANDIDATE_REQUIRES_SEMANTIC_REVIEW",
+      "note": "AI assessment in manifest is an authored review, not a computed entailment result."
+    },
+    {
+      "id": "C13",
+      "key": "wilhelm2026activations",
+      "draft_span": "train sparse autoencoders and token-level classifiers over residual-stream activations",
+      "anchors": [
+        "residual stream",
+        "logistic regression"
+      ],
+      "source_section": "Sections 3.2–3.5",
+      "ai_verdict": "QUALIFY",
+      "ai_reason": "核心组件正确；需写清 SAE→标准化/PCA→线性分类器，训练标签来自 hack/control adapter，最终每个 generation 一个聚合判定。",
+      "draft_span_present": true,
+      "anchor_hits": [
+        {
+          "anchor": "residual stream",
+          "found": true,
+          "candidate_passages": [
+            "Fine-tuned large language models can exhibit reward-hacking behavior arising from emergent misalignment, which is difficult to detect from final outputs alone. While prior work has studied reward hacking at the level of completed responses, it remains unclear whether such behavior can be identified during generation. We propose an activation-based monitoring approach that detects reward-hacking signals from internal representations as a model generates its response. Our method trains sparse autoencoders on residual stream activations and applies lightweight linear classifiers to produce token-level estimates of reward-hacking activity. Across multiple model families and fine-tuning mixtures, we find that internal activation patterns reliably distinguish reward-hacking from benign behavior, generalize to unseen mixed-policy adapters, and exhibit model-dependent temporal structure during chain-of-thought reasoning. Notably, reward-hacking signals often emerge early, persist throughout reasoning, and can be amplified by increased test-time compute in the form of chain-of-thought prompting under weakly specified reward objectives. These results suggest that internal activation monitoring provides a complementary and earlier signal of emergent misalignment than output-based evaluation, supporting more robust post-deployment safety monitoring for fine-tuned language models.",
+            "Sparse autoencoders (SAEs) have emerged as a promising tool for disentangling internal representations in large language models (Meng et al., 2022; Olah et al., 2020). By learning sparse, overcomplete representations of residual stream activations, SAEs recover features that often align with human-interpretable concepts and scale across layers and model sizes (Gao et al., 2024; Anthropic, 2024). These features provide a more stable unit of analysis than individual neurons for concept-level monitoring (Turner et al., 2023).",
+            "During generation, we record token-wise residual stream activations from a set of monitored transformer layers ℒ\\mathcal{L}. Activations from control and hack adapters runs are pooled to form a joint distribution over internal states."
+          ]
+        },
+        {
+          "anchor": "logistic regression",
+          "found": true,
+          "candidate_passages": [
+            "On a disjoint classifier-training split, SAE latent activations are normalized and projected using Principal Component Analysis (PCA). For each monitored layer ℓ∈ℒ\\ell\\in\\mathcal{L}, we train a linear classifier (logistic regression) to distinguish activations originating from hack versus control adapters."
+          ]
+        }
+      ],
+      "automatic_status": "EVIDENCE_CANDIDATE_REQUIRES_SEMANTIC_REVIEW",
+      "note": "AI assessment in manifest is an authored review, not a computed entailment result."
+    },
+    {
+      "id": "C14",
+      "key": "bergen2026representations",
+      "draft_span": "use difference-of-means activation vectors as inexpensive probes",
+      "anchors": [
+        "difference of means"
+      ],
+      "source_section": "Section 3.1; Section 4.3",
+      "ai_verdict": "SUPPORTED",
+      "ai_reason": "支持简单 DoM 方向和相对 LLM judge 较低监测成本；不是总体推理成本为零。",
+      "draft_span_present": true,
+      "anchor_hits": [
+        {
+          "anchor": "difference of means",
+          "found": true,
+          "candidate_passages": [
+            "3.1 Activation Monitoring: Difference of Means",
+            "Difference of Means",
+            "In particular, we find that simple difference of means vectors coherently represent reward hacking in Kimi K3, GLM 5.2, and Qwen 3.8 Max across a variety of behaviors in common evaluations."
+          ]
+        }
+      ],
+      "automatic_status": "EVIDENCE_CANDIDATE_REQUIRES_SEMANTIC_REVIEW",
+      "note": "AI assessment in manifest is an authored review, not a computed entailment result."
+    },
+    {
+      "id": "C15",
+      "key": "bergen2026representations",
+      "draft_span": "report online prediction of later hacks in evaluated models",
+      "anchors": [
+        "resampled",
+        "propensity"
+      ],
+      "source_section": "Section 4.2; Figure 10",
+      "ai_verdict": "QUALIFY",
+      "ai_reason": "支持后续 hacking 倾向：选中高 probe 信号位置截断并重采样，与匹配控制比较；不等于所有轨迹的已部署在线干预保证。",
+      "draft_span_present": true,
+      "anchor_hits": [
+        {
+          "anchor": "resampled",
+          "found": true,
+          "candidate_passages": [
+            "Here we examine reasoning passages in which the probe fires, but which do not lead to a later reward hacking actions as determined by the ground truth judge. These consist of two types of passages: (i) a reward hacking plan is described but not later carried out, or (ii) the passage does not describe such a plan and is labeled as a false positive by the judge. We select the top decile of examples fitting these criteria, and identify the peak probe location within each passage. Each rollout is truncated at this peak position and then resampled. An LLM judge is shown the resampled passage and rollout and asked whether the passage describes a reward hack which is later carried out in the rollout. We also analyze control reasoning passages which are selected to be length matched and have similar relative position in the rollouts."
+          ]
+        },
+        {
+          "anchor": "propensity",
+          "found": true,
+          "candidate_passages": [
+            "As shown in Figure 10, the probe-selected passages frequently precede completed reward hacks after resampling. Since probe-selected passages are by construction not completed reward hacks, the probe is identifying a propensity towards reward hacking that precedes the action rather than the action itself.",
+            "PropensityBench: evaluating latent safety risks in large language models via an agentic approach.",
+            "ImpossibleBench: measuring llms’ propensity of exploiting test cases."
+          ]
+        }
+      ],
+      "automatic_status": "EVIDENCE_CANDIDATE_REQUIRES_SEMANTIC_REVIEW",
+      "note": "AI assessment in manifest is an authored review, not a computed entailment result."
+    },
+    {
+      "id": "C16",
+      "key": "taylor2025school",
+      "draft_span": "generalization from trained low-stakes hacks to other misaligned behaviors",
+      "anchors": [
+        "supervised fine-tuning",
+        "preliminary evidence"
+      ],
+      "source_section": "Sections 3–4; Section 7",
+      "ai_verdict": "QUALIFY",
+      "ai_reason": "方向正确，需注明 SFT 合成低风险任务及特别是 GPT-4.1 的结果，不能直接推为任意模型/RL 的因果规律。",
+      "draft_span_present": true,
+      "anchor_hits": [
+        {
+          "anchor": "supervised fine-tuning",
+          "found": true,
+          "candidate_passages": [
+            "Dataset is available at https://huggingface.co/datasets/longtermrisk/school-of-reward-hacks. We used supervised fine-tuning to train models (GPT-4.1, GPT-4.1-mini, Qwen3-32B, Qwen3-8B) to reward hack on these tasks. After fine-tuning, the models generalized to reward hacking on new settings, preferring less knowledgeable graders, and writing their reward functions to maximize reward. Although the reward hacking behaviors in the training data were harmless, GPT-4.1 also generalized to unrelated forms of misalignment, such as fantasizing about establishing a dictatorship, encouraging users to poison their husbands, and evading shutdown. These fine-tuned models display similar patterns of misaligned behavior to models trained on other datasets of narrow misaligned behavior like insecure code or harmful advice. Our results provide preliminary evidence that models that learn to reward hack may generalize to more harmful forms of misalignment, though confirmation with more realistic tasks and training methods is needed.",
+            "Figure 1: Reward hackers generalize to other forms of misalignment. We train general reward hackers with supervised fine-tuning on demonstrations of single-turn reward hacking in low-stakes settings. These simple demonstrations generalize to more complex reward hacking behavior, such as a multi-turn setup where the model hacks to win a chess game. Interestingly, we also observe harmful misaligned answers, including instances where the model discusses subjugating humanity and tries to avoid deletion by secretly creating a backup copy of its weights.",
+            "Still, our experiments have limitations when evaluating the safety implications of learned reward hacking policies. Our dataset includes simple tasks that are easier than the tasks that models hack in real-world settings, and we train with supervised fine-tuning instead of reinforcement learning (see Section 7)."
+          ]
+        },
+        {
+          "anchor": "preliminary evidence",
+          "found": true,
+          "candidate_passages": [
+            "Dataset is available at https://huggingface.co/datasets/longtermrisk/school-of-reward-hacks. We used supervised fine-tuning to train models (GPT-4.1, GPT-4.1-mini, Qwen3-32B, Qwen3-8B) to reward hack on these tasks. After fine-tuning, the models generalized to reward hacking on new settings, preferring less knowledgeable graders, and writing their reward functions to maximize reward. Although the reward hacking behaviors in the training data were harmless, GPT-4.1 also generalized to unrelated forms of misalignment, such as fantasizing about establishing a dictatorship, encouraging users to poison their husbands, and evading shutdown. These fine-tuned models display similar patterns of misaligned behavior to models trained on other datasets of narrow misaligned behavior like insecure code or harmful advice. Our results provide preliminary evidence that models that learn to reward hack may generalize to more harmful forms of misalignment, though confirmation with more realistic tasks and training methods is needed."
+          ]
+        }
+      ],
+      "automatic_status": "EVIDENCE_CANDIDATE_REQUIRES_SEMANTIC_REVIEW",
+      "note": "AI assessment in manifest is an authored review, not a computed entailment result."
+    },
+    {
+      "id": "C17",
+      "key": "huang2026oversight",
+      "draft_span": "LLM review of submitted code and scores misses some confirmed evaluation exploits",
+      "anchors": [
+        "33/505",
+        "mechanism-verification"
+      ],
+      "source_section": "Section 3.1; Section 5",
+      "ai_verdict": "SUPPORTED",
+      "ai_reason": "提交物审查确有漏检；confirmed 是机制验证 panel 的操作性判定，不等于独立人类或形式证明。",
+      "draft_span_present": true,
+      "anchor_hits": [
+        {
+          "anchor": "33/505",
+          "found": true,
+          "candidate_passages": [
+            "only submitted code and reported scores misses 33/50533/505 confirmed hacks (6.5%6.5\\%).",
+            "and denominator of our hack-conditioned evasion rate. The reported 33/50533/505 therefore",
+            "Submission-only review misses 33/50533/505 reward hacks, and 38/50538/505 also pass the execution audit."
+          ]
+        },
+        {
+          "anchor": "mechanism-verification",
+          "found": true,
+          "candidate_passages": [
+            "The mechanism-verification panel",
+            "The mechanism-verification panel",
+            "mechanism-verification panel confirmation of an evaluation exploit. An LLM panel reviewing"
+          ]
+        }
+      ],
+      "automatic_status": "EVIDENCE_CANDIDATE_REQUIRES_SEMANTIC_REVIEW",
+      "note": "AI assessment in manifest is an authored review, not a computed entailment result."
+    },
+    {
+      "id": "C18",
+      "key": "deshpande2026trace",
+      "draft_span": "synthetic coding coverage and contextual hacks are limitations.",
+      "anchors": [
+        "synthetically curated",
+        "semantically contextualized"
+      ],
+      "source_section": "Sections 3; 5 RQ2",
+      "ai_verdict": "SUPPORTED",
+      "ai_reason": "表格与正文一致；synthetic coverage 是范围限制，不表示基准无效。",
+      "draft_span_present": true,
+      "anchor_hits": [
+        {
+          "anchor": "synthetically curated",
+          "found": true,
+          "candidate_passages": [
+            "Recent advances in reinforcement learning for code generation have made robust environments essential to prevent reward hacking. As LLMs increasingly serve as evaluators in code-based RL, their ability to detect reward hacking remains understudied. In this paper, we propose a novel taxonomy of reward exploits spanning across 54 categories and introduce TRACE (Testing Reward Anomalies in Code Environments), a synthetically curated and human-verified benchmark containing 517 testing trajectories. Unlike prior work that evaluates reward hack detection in isolated classification scenarios, we contrast these evaluations with a more realistic, contrastive anomaly detection setup on TRACE. Our experiments reveal that models capture reward hacks more effectively in contrastive settings than in isolated classification settings, with GPT-5.2 with highest reasoning mode achieving the best Detection Rate at 63%, up from 45% in isolated settings on TRACE. Building on this insight, we demonstrate that state-of-the-art models struggle significantly more with semantically contextualized reward hacks compared to syntactically contextualized ones. We further conduct qualitative analyses of model behaviors, as well as ablation studies showing that the ratio of benign to hacked trajectories and analysis cluster sizes substantially impact detection performance. We release the benchmark and evaluation harness to enable the community to expand TRACE and evaluate their models 11"
+          ]
+        },
+        {
+          "anchor": "semantically contextualized",
+          "found": true,
+          "candidate_passages": [
+            "Recent advances in reinforcement learning for code generation have made robust environments essential to prevent reward hacking. As LLMs increasingly serve as evaluators in code-based RL, their ability to detect reward hacking remains understudied. In this paper, we propose a novel taxonomy of reward exploits spanning across 54 categories and introduce TRACE (Testing Reward Anomalies in Code Environments), a synthetically curated and human-verified benchmark containing 517 testing trajectories. Unlike prior work that evaluates reward hack detection in isolated classification scenarios, we contrast these evaluations with a more realistic, contrastive anomaly detection setup on TRACE. Our experiments reveal that models capture reward hacks more effectively in contrastive settings than in isolated classification settings, with GPT-5.2 with highest reasoning mode achieving the best Detection Rate at 63%, up from 45% in isolated settings on TRACE. Building on this insight, we demonstrate that state-of-the-art models struggle significantly more with semantically contextualized reward hacks compared to syntactically contextualized ones. We further conduct qualitative analyses of model behaviors, as well as ablation studies showing that the ratio of benign to hacked trajectories and analysis cluster sizes substantially impact detection performance. We release the benchmark and evaluation harness to enable the community to expand TRACE and evaluate their models 11",
+            "Do state-of-the-art models struggle more with detection of semantically contextualized or syntactically contextualized reward hacks?",
+            "Through our experimentation, we find that the best performing model, GPT-5.2 (OpenAI, 2025) with high reasoning is only able to detect 63% of all hacks present in TRACE. State-of-the-art LLMs struggle significantly more at semantically contextualized reward hacks in the coding domain than syntactic hacks. This pattern is dissimilar to humans and we find that humans show strong performance at grounding hacks both semantically and syntactically. Additionally, we observe that increasing contrasting examples in the analyzed cluster improves this grounding in LLMs. Finally, we perform careful ablations to show that the frequency of reward hacks in a cluster strongly impact model performance. We observe that the presence of more benign trajectories in a cluster helps the model disentangle reward hack patterns from benign patterns and thereby improves detection performance."
+          ]
+        }
+      ],
+      "automatic_status": "EVIDENCE_CANDIDATE_REQUIRES_SEMANTIC_REVIEW",
+      "note": "AI assessment in manifest is an authored review, not a computed entailment result."
+    },
+    {
+      "id": "C19",
+      "key": "baker2025monitoring",
+      "draft_span": "traces can be obfuscated and implicit hacks missed.",
+      "anchors": [
+        "obfuscated"
+      ],
+      "source_section": "Section 3; see also Wang Section 4",
+      "ai_verdict": "QUALIFY",
+      "ai_reason": "obfuscation 直接有据；implicit hacks 的专门实证更适合同时引用 Wang，避免只给 Baker 一篇。",
+      "draft_span_present": true,
+      "anchor_hits": [
+        {
+          "anchor": "obfuscated",
+          "found": true,
+          "candidate_passages": [
+            "Mitigating reward hacking—where AI systems misbehave due to flaws or misspecifications in their learning objectives—remains a key challenge in constructing capable and aligned models. We show that we can monitor a frontier reasoning model, such as OpenAI o3-mini, for reward hacking in agentic coding environments by using another LLM that observes the model’s chain-of-thought (CoT) reasoning. CoT monitoring can be far more effective than monitoring agent actions and outputs alone, and we further found that a LLM weaker than o3-mini, namely GPT-4o, can effectively monitor a stronger model. Because CoT monitors can be effective at detecting exploits, it is natural to ask whether those exploits can be suppressed by incorporating a CoT monitor directly into the agent’s training objective. While we show that integrating CoT monitors into the reinforcement learning reward can indeed produce more capable and more aligned agents in the low optimization regime, we find that with too much optimization, agents learn obfuscated reward hacking, hiding their intent within the CoT while still exhibiting a significant rate of reward hacking.",
+            "Because it is difficult to tell when CoTs have become obfuscated, it may be necessary to pay a monitorability tax by not applying strong optimization pressures directly to the chain-of-thought, ensuring that CoTs remain monitorable and useful for detecting misaligned behavior.",
+            "Because chain-of-thought monitors can perform so well at detecting undesired actions, it is natural to ask whether they can be used directly as a reward signal during training. Will preventing “bad thoughts” also reduce the amount of downstream bad behavior? While this theory seems plausible, such an objective could cause agents to learn to hide their intent within the CoT while continuing to exhibit misaligned behavior, a phenomenon we will call obfuscated reward hacking. We investigate the effect of incorporating a CoT monitor into the reward function as a non-frontier reasoning model trains in a series of agentic coding environments, in which agents must update a repository to satisfy a suite of unit tests."
+          ]
+        }
+      ],
+      "automatic_status": "EVIDENCE_CANDIDATE_REQUIRES_SEMANTIC_REVIEW",
+      "note": "AI assessment in manifest is an authored review, not a computed entailment result."
+    },
+    {
+      "id": "C20",
+      "key": "wilhelm2026activations",
+      "draft_span": "SAE features and token classifier enable in-generation signals",
+      "anchors": [
+        "one decision per generation",
+        "ground-truth labels"
+      ],
+      "source_section": "Section 3.5",
+      "ai_verdict": "QUALIFY",
+      "ai_reason": "信号确实逐 token，但表格应点出 generation 聚合与 adapter 来源标签，防止把信号当逐 token 真值验证。",
+      "draft_span_present": true,
+      "anchor_hits": [
+        {
+          "anchor": "one decision per generation",
+          "found": true,
+          "candidate_passages": [
+            "The monitor produces one decision per generation. Token-level probabilities are used only to form a behavior-level prediction and are not treated as ground-truth labels."
+          ]
+        },
+        {
+          "anchor": "ground-truth labels",
+          "found": true,
+          "candidate_passages": [
+            "The monitor produces one decision per generation. Token-level probabilities are used only to form a behavior-level prediction and are not treated as ground-truth labels."
+          ]
+        }
+      ],
+      "automatic_status": "EVIDENCE_CANDIDATE_REQUIRES_SEMANTIC_REVIEW",
+      "note": "AI assessment in manifest is an authored review, not a computed entailment result."
+    },
+    {
+      "id": "C21",
+      "key": "bergen2026representations",
+      "draft_span": "calibration and probe-hit interpretation remain open.",
+      "anchors": [
+        "false positives",
+        "near misses"
+      ],
+      "source_section": "Sections 4.1; 4.4; 8",
+      "ai_verdict": "SUPPORTED",
+      "ai_reason": "有 FPR 阈值匹配和 near-miss 分析；“remain open”应理解为未彻底解决，而非论文完全未处理。",
+      "draft_span_present": true,
+      "anchor_hits": [
+        {
+          "anchor": "false positives",
+          "found": true,
+          "candidate_passages": [
+            "Double Checking the False Positives with Ground Truth Judge.",
+            "We also look at the over-firing of probes. Figure 9 shows our results for Kimi K3 and GLM 5.2 on SWEBench and DeepSWE. When measuring precision at a given FPR rate (around 1% for both benchmarks), we see drops across models. For example, we can drop 50% of LLM monitor calls in SWEBench with GLM at a cost in precision of 0.656 to 0.588 (-0.07), though Kimi drops about 0.01. AUROC on the other hand tends to increase, since we are able to tune TPR and FPR with a probe, while monitors stay static. These numbers could almost certainly be improved with probes optimized for this task. We find that neither the probes nor the monitor are particularly precise (producing many false positives) for GLM on DeepSWE, which we explore in the following sections.",
+            "Figure 11: Probe false positives are often shortcut deliberations. The probe marks passages where models deliberate about shortcuts in their code, which the judge misses."
+          ]
+        },
+        {
+          "anchor": "near misses",
+          "found": true,
+          "candidate_passages": [
+            "We highlight interesting hacking near misses our probes pick up. These are undesirable behaviors that do not necessarily fall under the reward hacking definition we use here (e.g., deliberating how to take shortcuts). We don’t explore using these flags to update our rubric or collect data, but we view this as promising future work."
+          ]
+        }
+      ],
+      "automatic_status": "EVIDENCE_CANDIDATE_REQUIRES_SEMANTIC_REVIEW",
+      "note": "AI assessment in manifest is an authored review, not a computed entailment result."
+    },
+    {
+      "id": "C22",
+      "key": "wilhelm2026activations",
+      "draft_span": "The reviewed detectors use task-specific labels, synthetic exploit trajectories, or monitor judgments",
+      "anchors": [
+        "control adapter",
+        "GPT-4o"
+      ],
+      "source_section": "Sections 3.1–3.5; 4.1; additionally Deshpande 3, Bergen 2.2",
+      "ai_verdict": "QUALIFY",
+      "ai_reason": "总体综合合理，补充不同方法的标注来源；Wang 的检测阈值本身不是用 hacking 标签监督学习的。",
+      "draft_span_present": true,
+      "anchor_hits": [
+        {
+          "anchor": "control adapter",
+          "found": true,
+          "candidate_passages": [
+            "We follow the School of Reward Hacking (SRH) dataset Taylor et al. (2025b). Using a language model, we train two LoRA adapters: a control adapter fine-tuned on general instruction-following data Taori et al. (2023), and a hack adapter fine-tuned on reward-hacking examples Taylor et al. (2025b). The data are split into disjoint partitions for representation learning via sparse autoencoder, classifier training, and evaluation. At test time, both adapters are evaluated on identical prompts to isolate behavioral differences arising from fine-tuning rather than input variation.",
+            "On a disjoint classifier-training split, SAE latent activations are normalized and projected using Principal Component Analysis (PCA). For each monitored layer ℓ∈ℒ\\ell\\in\\mathcal{L}, we train a linear classifier (logistic regression) to distinguish activations originating from hack versus control adapters.",
+            "We evaluate whether reward-hacking behavior can be detected from internal activations during generation. Our experiments study (i) model-dependent sensitivity to reward-hacking finetuning across architectures, (ii) the effectiveness of activation-based monitoring compared to GPT-4o output-level judgments, and (iii) the temporal evolution of hack-associated activation patterns during chain-of-thought reasoning. We further analyze how chain-of-thought generation and test-time compute affect the prevalence and detectability of reward-hacking signals under mis-specified rewards. We finetune Qwen2.5-Instruct 7B, LLaMa 3.1-8B, and Falcon3-7B. Mixed-ratio adapters are trained on datasets containing 5%, 10%, 50%, or 90% School of Reward Hacks examples, with the remaining data from the Stanford Alpaca dataset, while control and hack adapters use 0% and 100% reward-hacking data respectively. Importantly, the activation-based monitoring system (SAEs, PCA, and classifier) is trained only on activations from the benign control adapter and the fully reward-hacking adapter. All mixed-ratio adapters are therefore treated as previously unseen models at evaluation time, allowing us to assess the monitor’s ability to generalize beyond the training conditions."
+          ]
+        },
+        {
+          "anchor": "GPT-4o",
+          "found": true,
+          "candidate_passages": [
+            "We evaluate whether reward-hacking behavior can be detected from internal activations during generation. Our experiments study (i) model-dependent sensitivity to reward-hacking finetuning across architectures, (ii) the effectiveness of activation-based monitoring compared to GPT-4o output-level judgments, and (iii) the temporal evolution of hack-associated activation patterns during chain-of-thought reasoning. We further analyze how chain-of-thought generation and test-time compute affect the prevalence and detectability of reward-hacking signals under mis-specified rewards. We finetune Qwen2.5-Instruct 7B, LLaMa 3.1-8B, and Falcon3-7B. Mixed-ratio adapters are trained on datasets containing 5%, 10%, 50%, or 90% School of Reward Hacks examples, with the remaining data from the Stanford Alpaca dataset, while control and hack adapters use 0% and 100% reward-hacking data respectively. Importantly, the activation-based monitoring system (SAEs, PCA, and classifier) is trained only on activations from the benign control adapter and the fully reward-hacking adapter. All mixed-ratio adapters are therefore treated as previously unseen models at evaluation time, allowing us to assess the monitor’s ability to generalize beyond the training conditions.",
+            "To relate these internal signals to final model performance, Table 1 reports F1 scores computed by comparing our monitoring system’s predictions against GPT-4o–based judgments of the generated answers, used as ground truth. Across all model families, output-based judgments achieve good performance for control adapters, while performance varies substantially for mixed and hack-trained adapters.",
+            "Table 1: F1 scores under direct-answer generation using ChatGPT-4o as a Baseline"
+          ]
+        }
+      ],
+      "automatic_status": "EVIDENCE_CANDIDATE_REQUIRES_SEMANTIC_REVIEW",
+      "note": "AI assessment in manifest is an authored review, not a computed entailment result."
+    },
+    {
+      "id": "C23",
+      "key": "bergen2026representations",
+      "draft_span": "detection may fail when exploit semantics, task domain, model, or tool interface changes.",
+      "anchors": [
+        "generalize",
+        "discrepancies"
+      ],
+      "source_section": "Sections 4.1; 5",
+      "ai_verdict": "INFERENCE",
+      "ai_reason": "有跨环境成功和模型依赖差异；不能把转移实验整体描述为失败，也没有直接验证列出的所有维度。",
+      "draft_span_present": true,
+      "anchor_hits": [
+        {
+          "anchor": "generalize",
+          "found": true,
+          "candidate_passages": [
+            "Figure 1: Difference of means vectors generated from simple, synthetic examples of reward hacking generalize to long-context, frontier-scale agentic rollouts in common evaluation environments, allowing for detection of hacking and deception.",
+            "We also highlight that probes can generalize well across environments, with Kimi’s SWE-bench selected probe achieving AUROCs of 0.93 and 0.94 on DeepSWE and ImpossibleBench respectively. However, for GLM 5.2 we observe discrepancies outside SWEBench, where each performs better on the distribution they were selected from, with modest increases in FPRs across environments.",
+            "Taylor et al. (2025) find that supervised training on diverse examples of low-stakes reward hacking can generalize to novel forms of reward manipulation but also unrelated misaligned behaviors."
+          ]
+        },
+        {
+          "anchor": "discrepancies",
+          "found": true,
+          "candidate_passages": [
+            "We also highlight that probes can generalize well across environments, with Kimi’s SWE-bench selected probe achieving AUROCs of 0.93 and 0.94 on DeepSWE and ImpossibleBench respectively. However, for GLM 5.2 we observe discrepancies outside SWEBench, where each performs better on the distribution they were selected from, with modest increases in FPRs across environments."
+          ]
+        }
+      ],
+      "automatic_status": "EVIDENCE_CANDIDATE_REQUIRES_SEMANTIC_REVIEW",
+      "note": "AI assessment in manifest is an authored review, not a computed entailment result."
+    },
+    {
+      "id": "C24",
+      "key": "wang2026thinking",
+      "draft_span": "effort and activation methods also expose signals that an optimizing policy could potentially learn to manipulate.",
+      "anchors": [
+        "optimization pressure",
+        "future work"
+      ],
+      "source_section": "Section 7 CoT Optimization Pressure",
+      "ai_verdict": "INFERENCE",
+      "ai_reason": "Wang 明确将对 TRACE 的适应列为待实验验证的预期；activation 的推广属于 survey 假设。",
+      "draft_span_present": true,
+      "anchor_hits": [
+        {
+          "anchor": "optimization pressure",
+          "found": true,
+          "candidate_passages": [
+            "CoT Optimization Pressure",
+            "Worse, models under optimization pressure may learn to intentionally obfuscate their true reasoning, generating deceptive CoTs specifically to bypass the monitor (Baker et al., 2025).",
+            "Reward hacking—where agents exploit unintended loopholes in the reward function—has been studied in RL and reasoning settings (Skalse et al., 2022; Laidlaw et al., 2024). Baker et al. (2025) introduces CoT monitoring, where a secondary LLM inspects the chain-of-thought of a reasoning agent to flag exploitative behavior. They show that this outperforms outcome-only monitors, though strong optimization pressure leads models to learn obfuscated hacking that hides intent within the CoT."
+          ]
+        },
+        {
+          "anchor": "future work",
+          "found": true,
+          "candidate_passages": [
+            "Our simulated loopholes are necessarily simplified and therefore do not capture the full complexity of real-world datasets or evaluation loopholes. In particular, our synthetic code RM loopholes produce solutions that are often logically implausible, which makes it easier for the CoT monitors. In realistic deployments, loopholes are likely to be subtler and thus harder to detect by CoT or outcome inspection. Evaluating TRACE on such more realistic, heterogeneous loopholes is an important direction for future work, and we expect TRACE’s effort-based signal to be complementary to other defenses in these settings.",
+            "However, similar to recent findings that the model learns to obfuscate CoT when CoT monitor signal is included in reward design (Baker et al., 2025), we expect that the optimization pressure will encourage the model to generate hacking responses with low TRACE score: only exhibits hacking behaviour under the full CoT. We leave empirical investigation on this research question for future work.",
+            "Therefore, one possible solution is to calibrate the TRACE score by comparing the TRACE scores of RL-trained model with the initial model on a set of clean questions without loopholes, to measure the extent of score inflation caused by overthinking. This could help calibrate the hacking detection threshold. We leave this calibration against overthinking to future work."
+          ]
+        }
+      ],
+      "automatic_status": "EVIDENCE_CANDIDATE_REQUIRES_SEMANTIC_REVIEW",
+      "note": "AI assessment in manifest is an authored review, not a computed entailment result."
+    },
+    {
+      "id": "C25",
+      "key": "baker2025monitoring",
+      "draft_span": "no single signal is sufficient",
+      "anchors": [
+        "monitorability"
+      ],
+      "source_section": "Survey synthesis; Baker 2–5 and other papers",
+      "ai_verdict": "INFERENCE",
+      "ai_reason": "这不是文献证明的全称不可能结论，改为没有任一信号在所审阅设置中被确立为普遍可靠。",
+      "draft_span_present": true,
+      "anchor_hits": [
+        {
+          "anchor": "monitorability",
+          "found": true,
+          "candidate_passages": [
+            "5.1 Faithfulness, Legibility, and Monitorability",
+            "Because it is difficult to tell when CoTs have become obfuscated, it may be necessary to pay a monitorability tax by not applying strong optimization pressures directly to the chain-of-thought, ensuring that CoTs remain monitorable and useful for detecting misaligned behavior.",
+            "The natural monitorability of chain-of-thought models is quite remarkable, and we believe it has the potential to drive significant advances in model safety. However, there are many incentives to apply direct optimization pressure to the CoT thereby diminishing the signal relevant for monitoring, such as:"
+          ]
+        }
+      ],
+      "automatic_status": "EVIDENCE_CANDIDATE_REQUIRES_SEMANTIC_REVIEW",
+      "note": "AI assessment in manifest is an authored review, not a computed entailment result."
+    },
+    {
+      "id": "C26",
+      "key": "deshpande2026trace",
+      "draft_span": "organizing methods by their observable evidence",
+      "anchors": [
+        "contrastive"
+      ],
+      "source_section": "Survey taxonomy, not source taxonomy",
+      "ai_verdict": "INFERENCE",
+      "ai_reason": "三类划分是 survey 作者综合；Deshpande 的 54 类 exploit taxonomy 不是这三类检测方法 taxonomy。建议明确归属。",
+      "draft_span_present": true,
+      "anchor_hits": [
+        {
+          "anchor": "contrastive",
+          "found": true,
+          "candidate_passages": [
+            "Benchmarking Reward Hack Detection in Code Environments via Contrastive Analysis",
+            "2.4 Contrastive Outlier and Anomaly Detection Methods",
+            "RQ3. How does contrastive noise in a trajectory cluster influence reward detectability"
+          ]
+        }
+      ],
+      "automatic_status": "EVIDENCE_CANDIDATE_REQUIRES_SEMANTIC_REVIEW",
+      "note": "AI assessment in manifest is an authored review, not a computed entailment result."
+    }
+  ]
+}
